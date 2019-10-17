@@ -129,16 +129,24 @@ true|true|false|false
 
 type(x) == int  |  x > 7  |  type(x) == float  |  type(x) == int and x > 7  |  type(x) == float and x > 7  | (type(x) == int and x > 7) or (type(x) == float and x > 7)  |  type(x) == int or type(x) == float  |  (type(x) == int or type(x) == float) and x > 7
 ---|-----|-----|-----|-----|-----|-----|---
-false|false|false|false|false|false|false|false|
-false|false|true|false|false|false|true|false|
-false|true|false|false|false|false|false|false|
-false|true|true|false|true|true|true|true|true|
-true|false|false|false|false|false|true|false|
-true|false|true|false|false|false|true|false|
-true|true|false|true|false|true|true|true|
-true|true|true|true|true|true|true|true|
+false|false|false|false|false|false|false|false
+false|false|true|false|false|false|true|false
+false|true|false|false|false|false|false|false
+false|true|true|false|true|true|true|true|true
+true|false|false|false|false|false|true|false
+true|false|true|false|false|false|true|false
+true|true|false|true|false|true|true|true
+true|true|true|true|true|true|true|true
 
 ### c
+
+x == 0  |  y == 0  |  x != 0  |  y != 0  |  x == 0 and y == 0  |  x != 0 or y != 0  
+---|-----|-----|-----|-----|---
+false|false|true|true|false|true
+false|true|true|false|false|true
+true|false|false|true|false|true
+true|true|false|false|true|false
+    |    |     |     |true = do_something()|true = do nothing
 
 ### d
 
