@@ -8,14 +8,14 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 A  |  B  |  C  |  A AND B  |  NOT C  |  A AND B AND NOT C
 ---|-----|-----|-----|-----|---
-false|false|false
-false|false|true
-false|true|false
-false|true|true
-true|false|false
-true|false|true
-true|true|false
-true|true|true
+false|false|false|false|true|false
+false|false|true|false|false|false
+false|true|false|false|true|false
+false|true|true|false|false|false
+true|false|false|false|true|false
+true|false|true|false|false|false
+true|true|false|true|true|true
+true|true|true|true|false|false
 
 ### b
 
