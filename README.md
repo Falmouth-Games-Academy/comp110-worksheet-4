@@ -78,12 +78,84 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 3
 
 ### a
+|A    |B    |C    |D    |NOT (A OR B)|NOT A AND NOT B|
+|-----|-----|-----|-----|------------|---------------|
+|false|false|false|false|true        |true           |
+|false|false|false|true |true        |true           |
+|false|false|true |false|true        |true           |
+|false|false|true |true |true        |true           |
+|false|true |false|false|false       |false          |
+|false|true |false|true |false       |false          |
+|false|true |true |false|false       |false          |
+|false|true |true |true |false       |false          |
+|true |false|false|false|false       |false          |
+|true |false|false|true |false       |false          |
+|true |false|true |false|false       |false          |
+|true |false|true |true |false       |false          |
+|true |true |false|false|false       |false          |
+|true |true |false|true |false       |false          |
+|true |true |true |false|false       |false          |
+|true |true |true |true |false       |false          |
 
 ### b
+|A    |B    |C    |D    |NOT (A AND B)|NOT A OR NOT B|
+|-----|-----|-----|-----|-------------|--------------|
+|false|false|false|false|true         |true          |
+|false|false|false|true |true         |true          |
+|false|false|true |false|true         |true          |
+|false|false|true |true |true         |true          |
+|false|true |false|false|true         |true          |
+|false|true |false|true |true         |true          |
+|false|true |true |false|true         |true          |
+|false|true |true |true |true         |true          |
+|true |false|false|false|true         |true          |
+|true |false|false|true |true         |true          |
+|true |false|true |false|true         |true          |
+|true |false|true |true |true         |true          |
+|true |true |false|false|false        |false         |
+|true |true |false|true |false        |false         |
+|true |true |true |false|false        |false         |
+|true |true |true |true |false        |false         |
 
 ### c
+|A    |B    |C    |D    |(A AND B) OR (A AND C)|A AND (B OR C)|
+|-----|-----|-----|-----|----------------------|--------------|
+|false|false|false|false|false                 |false         |
+|false|false|false|true |false                 |false         |
+|false|false|true |false|false                 |false         |
+|false|false|true |true |false                 |false         |
+|false|true |false|false|false                 |false         |
+|false|true |false|true |false                 |false         |
+|false|true |true |false|false                 |false         |
+|false|true |true |true |false                 |false         |
+|true |false|false|false|false                 |false         |
+|true |false|false|true |false                 |false         |
+|true |false|true |false|true                  |true          |
+|true |false|true |true |true                  |true          |
+|true |true |false|false|true                  |true          |
+|true |true |false|true |true                  |true          |
+|true |true |true |false|true                  |true          |
+|true |true |true |true |true                  |true          |
 
 ### d
+|A    |B    |C    |D    |(A OR B) AND (A OR C)|A OR (B AND C)|
+|-----|-----|-----|-----|---------------------|--------------|
+|false|false|false|false|false                |false         |
+|false|false|false|true |false                |false         |
+|false|false|true |false|false                |false         |
+|false|false|true |true |false                |false         |
+|false|true |false|false|false                |false         |
+|false|true |false|true |false                |false         |
+|false|true |true |false|true                 |true          |
+|false|true |true |true |true                 |true          |
+|true |false|false|false|true                 |true          |
+|true |false|false|true |true                 |true          |
+|true |false|true |false|true                 |true          |
+|true |false|true |true |true                 |true          |
+|true |true |false|false|true                 |true          |
+|true |true |false|true |true                 |true          |
+|true |true |true |false|true                 |true          |
+|true |true |true |true |true                 |true          |
 
 ## Question 4
 
