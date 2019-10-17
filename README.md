@@ -156,8 +156,9 @@ false|false|false|false|false|false|false
 false|false|true|false|false|true|false
 false|true|false|false|false|false|false
 false|true|true|true|true|true|true
-true|false|false|false|true|true|false
-true|false|true|false|true|true|false
+true|*false|false|false|true|true|false
+true|*false|true|false|true|true|false
 true|true|false|false|true|true|true
 true|true|true|true|true|true|true
 
+*These conditions are the same, although they do not seem the same in my truth table. They are the same as the truth table says that x can be greater than 10, whilst also not being greater than 0 (e.g. x > 10 and not x > 0).
