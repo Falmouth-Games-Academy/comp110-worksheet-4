@@ -133,9 +133,25 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
+| *A* | *B* |NOT (*A* AND *B*)  |NOT *A* OR NOT *B* |
+|:---:|:---:|:-----------------:|:-----------------:|
+|FALSE|FALSE|TRUE               |TRUE               |
+|FALSE|TRUE |FALSE              |FALSE              |
+|TRUE |FALSE|FALSE              |FALSE              |
+|TRUE |TRUE |FALSE              |FALSE              |
+
 ### b
 
+| type(X) = INT | X > 7   |(x = int AND x > 7) OR ( x = float AND x > 7)|(x = int or x = float ) and x > 7|
+|:-------------:|:-------:|:-------------------------------------------:|:-------------------------------:|
+|TRUE           |FALSE    |FALSE                                        |FALSE                            |
+|TRUE           |TRUE     |TRUE                                         |TRUE                             |
+|FALSE          |FALSE    |FALSE                                        |FALSE                            |
+|FASLE          |TRUE     |TRUE                                         |TRUE                             |
+
 ### c
+
+
 
 ### d
 
