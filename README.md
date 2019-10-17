@@ -160,10 +160,36 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 4
 
 ### a
+|file_exists("a.txt")|file_exists("b.txt")|first program|second program|
+|--------------------|--------------------|-------------|--------------|
+|false               |false               |true         |true          |
+|false               |true                |true         |true          |
+|true                |false               |true         |true          |
+|true                |true                |false        |false         |
 
 ### b
+|type(x) == int|x > 7|type(x) == float|first program|second program|
+|--------------|-----|----------------|-------------|--------------|
+|false         |false|false           |false        |false         |
+|false         |false|true            |false        |false         |
+|false         |true |false           |false        |false         |
+|false         |true |true            |true         |true          |
+|true          |false|false           |false        |false         |
+|true          |false|true            |false        |false         |
+|true          |true |false           |true         |true          |
+|true          |true |true            |true         |true          |
 
 ### c
-
+|X == 0 |Y == 0|first program|second program|
+|-------|------|-------------|--------------|
+|true   |true  |false        |false         |
+|true   |false |false        |false         |
+|false  |true  |false        |false         |
+|false  |false |true         |true          |
 ### d
-
+|X > 10 |Y > 0 |first program|second program|
+|-------|------|-------------|--------------|
+|false  |false |true         |false         |
+|false  |true  |true         |false         |
+|true   |false |false        |false         |
+|true   |true  |true         |true          |
