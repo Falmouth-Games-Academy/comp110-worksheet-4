@@ -90,6 +90,17 @@ true|true|true|false|false|false|false
 
 ### c
 
+A  |  B  |  C  |  A AND B  |  A AND C  |  (A AND B) OR (A AND C) |  B OR C  | A AND (B OR C)
+---|-----|-----|-----|-----|-----|-----|---
+false|false|false|false|false|false|false|false
+false|false|true|false|false|false|true|false
+false|true|false|false|false|false|true|false
+false|true|true|false|false|false|true|false
+true|false|false|false|false|false|false|false
+true|false|true|false|true|false|true|true
+true|true|false|true|false|false|true|true
+true|true|true|true|true|true|true|true
+
 ### d
 
 ## Question 4
