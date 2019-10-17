@@ -5,6 +5,8 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 1
 
 ### a
+|A|B|C|A and B not C|
+|---|---|---|---|
 
 ### b
 
