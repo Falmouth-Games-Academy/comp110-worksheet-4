@@ -146,7 +146,7 @@ false|false|true|true|false|true
 false|true|true|false|false|true
 true|false|false|true|false|true
 true|true|false|false|true|false
-/|/|/|/|true = do_something()|true = do nothing
+/|/|/|/|*true = do_something()|*false = do_something()
 
 ### d
 
