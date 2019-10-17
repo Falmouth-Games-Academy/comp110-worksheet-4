@@ -97,11 +97,22 @@ false|false|true|false|false|false|true|false
 false|true|false|false|false|false|true|false
 false|true|true|false|false|false|true|false
 true|false|false|false|false|false|false|false
-true|false|true|false|true|false|true|true
-true|true|false|true|false|false|true|true
+true|false|true|false|true|true|true|true
+true|true|false|true|false|true|true|true
 true|true|true|true|true|true|true|true
 
 ### d
+
+A  |  B  |  C  |  A OR B  |  A OR C  |  (A OR B) AND (A OR C)  |  B AND C  | A OR (B AND C)
+---|-----|-----|-----|-----|-----|-----|---
+false|false|false|false|false|false|false|false
+false|false|true|false|true|false|false|false
+false|true|false|true|false|false|false|false
+false|true|true|true|true|true|true|true
+true|false|false|true|true|true|false|true
+true|false|true|true|true|true|false|true
+true|true|false|true|true|true|false|true
+true|true|true|true|true|true|true|true
 
 ## Question 4
 
