@@ -68,19 +68,20 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
-
+/A and B and not C.png
 
 ### b
 
+\A and not (B and not C).png
 
 
 ### c
 
-
+\(A or not B) and (A or C).png
 
 ### d
 
-
+\A AND NOT (B OR NOT C) AND (NOT A AND D).png
 
 ## Question 3
 
