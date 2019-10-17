@@ -6,6 +6,17 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
+A  |  B  |  C  |  A AND B  |  NOT C  |  A AND B AND NOT C
+---|-----|-----|-----|-----|---
+false|false|false
+false|false|true
+false|true|false
+false|true|true
+true|false|false
+true|false|true
+true|true|false
+true|true|true
+
 ### b
 
 ### c
