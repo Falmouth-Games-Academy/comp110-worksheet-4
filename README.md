@@ -66,13 +66,7 @@ true|true|true|true|false|false|true|false|false|false|false
 
 ## Question 2
 
-### a
-
-### b
-
-### c
-
-### d
+![Question 2 logic gate diagrams](Question_2_Logic_Gate_Diagrams.png)
 
 ## Question 3
 
