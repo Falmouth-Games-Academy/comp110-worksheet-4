@@ -161,4 +161,4 @@ true|*false|true|false|true|true|false
 true|true|false|false|true|true|true
 true|true|true|true|true|true|true
 
-*These conditions are the same, although they do not seem the same in my truth table. They are the same as the truth table says that x can be greater than 10, whilst also not being greater than 0 (e.g. x > 10 and not x > 0).
+*These conditions are the same, although they do not seem the same in my truth table. They are the same as the truth table says that x can be greater than 10, whilst also not being greater than 0 (e.g. x > 10 and not x > 0). Therefore, if these impossibilites were removed, both conditions would be the same.
