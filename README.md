@@ -19,6 +19,17 @@ true|true|true|true|false|false
 
 ### b
 
+A  |  B  |  C  |  NOT C  |  B AND NOT C  |  A AND NOT(B AND NOT C)
+---|-----|-----|-----|-----|---
+false|false|false|true|false|false
+false|false|true|false|false|false
+false|true|false|true|true|false
+false|true|true|false|false|false
+true|false|false|true|false|true
+true|false|true|false|false|true
+true|true|false|true|true|false
+true|true|true|false|false|true
+
 ### c
 
 ### d
