@@ -68,30 +68,66 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
-/A and B and not C.png
+![one](https://github.com/DanielNeale/comp110-worksheet-4/blob/master/A%20and%20B%20and%20not%20C.png)
 
 ### b
 
-\A and not (B and not C).png
+![two](https://github.com/DanielNeale/comp110-worksheet-4/blob/master/A%20and%20not%20(B%20and%20not%20C).png)
 
 
 ### c
 
-\(A or not B) and (A or C).png
+![three](https://github.com/DanielNeale/comp110-worksheet-4/blob/master/(A%20or%20not%20B)%20and%20(A%20or%20C).png)
 
 ### d
 
-\A AND NOT (B OR NOT C) AND (NOT A AND D).png
+![four](https://github.com/DanielNeale/comp110-worksheet-4/blob/master/A%20AND%20NOT%20(B%20OR%20NOT%20C)%20AND%20(NOT%20A%20AND%20D).png)
 
 ## Question 3
 
 ### a
 
+| *A* | *B* |NOT (*A* OR *B*)   |NOT *A* AND NOT *B*|
+|:---:|:---:|:-----------------:|:-----------------:|
+|FALSE|FALSE|TRUE               |TRUE               |
+|FALSE|TRUE |FALSE              |FALSE              |
+|TRUE |FALSE|FALSE              |FALSE              |
+|TRUE |TRUE |FALSE              |FALSE              |
+
 ### b
+
+| *A* | *B* |NOT (*A* AND *B*)  |NOT *A* OR NOT *B* |
+|:---:|:---:|:-----------------:|:-----------------:|
+|FALSE|FALSE|TRUE               |TRUE               |
+|FALSE|TRUE |TRUE               |TRUE               |
+|TRUE |FALSE|TRUE               |TRUE               |
+|TRUE |TRUE |FALSE              |FALSE              |
 
 ### c
 
+| *A* | *B* | *C* |(*A* AND *B*) OR (*A* AND *C*) |*A* AND (*B* OR *C*)           |
+|:---:|:---:|:---:|:-----------------------------:|:-----------------------------:|
+|FALSE|FALSE|FALSE|FALSE                          |FALSE                          |
+|FALSE|FALSE|TRUE |FALSE                          |FALSE                          |
+|FALSE|TRUE |FALSE|FALSE                          |FALSE                          |
+|FALSE|TRUE |TRUE |FALSE                          |FALSE                          |
+|TRUE |FALSE|FALSE|FALSE                          |FALSE                          |
+|TRUE |FALSE|TRUE |TRUE                           |TRUE                           |
+|TRUE |TRUE |FALSE|TRUE                           |TRUE                           |
+|TRUE |TRUE |TRUE |TRUE                           |TRUE                           |
+
 ### d
+
+| *A* | *B* | *C* |(*A* OR *B*) AND (*A* OR *C*)  |*A* OR (*B* AND *C*)           |
+|:---:|:---:|:---:|:-----------------------------:|:-----------------------------:|
+|FALSE|FALSE|FALSE|FALSE                          |FALSE                          |
+|FALSE|FALSE|TRUE |FALSE                          |FALSE                          |
+|FALSE|TRUE |FALSE|FALSE                          |FALSE                          |
+|FALSE|TRUE |TRUE |TRUE                           |TRUE                           |
+|TRUE |FALSE|FALSE|TRUE                           |TRUE                           |
+|TRUE |FALSE|TRUE |TRUE                           |TRUE                           |
+|TRUE |TRUE |FALSE|TRUE                           |TRUE                           |
+|TRUE |TRUE |TRUE |TRUE                           |TRUE                           |
 
 ## Question 4
 
