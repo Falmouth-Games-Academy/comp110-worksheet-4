@@ -79,8 +79,14 @@ false|true|true|false|true|false|false
 true|false|true|false|false|true|false
 true|true|true|false|false|false|false
 
-
 ### b
+
+A  |  B  |  A AND B  | NOT (A AND B)  | NOT A | NOT B |  NOT A OR NOT B
+---|-----|-----|-----|-----|-----|---
+false|false|false|true|true|true|true
+false|true|false|true|true|false|true
+true|false|false|true|false|true|true
+true|true|true|false|false|false|false
 
 ### c
 
