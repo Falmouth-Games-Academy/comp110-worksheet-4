@@ -5,8 +5,16 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 1
 
 ### a
-|A|B|C|A and B not C|
-|---|---|---|---|
+|A     |B     |C     |A and B and not C|
+|------|------|------|-----------------|
+|False |False |False |False            |
+|False |False |True  |False            |
+|False |True  |False |False            |
+|False |True  |True  |False            |
+|True  |False |False |False            |
+|True  |False |True  |False            |
+|True  |True  |False |True             |
+|True  |True  |True  |False            |
 
 ### b
 
