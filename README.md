@@ -121,10 +121,41 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 4
 
 ### a
+|file_exists("a.txt")|file_exists("b.txt")|first program|second program|
+|--------------------|--------------------|-------------|--------------|
+|FALSE               |FALSE               |TRUE         |TRUE          |
+|FALSE               |TRUE                |TRUE         |TRUE          |
+|TRUE                |FALSE               |TRUE         |TRUE          |
+|TRUE                |TRUE                |FALSE        |FALSE         |
+
 
 ### b
+|type(x) == int|x > 7|type(x) == float|first program|second program|
+|--------------|-----|----------------|-------------|--------------|
+|FALSE         |FALSE|FALSE           |FALSE        |FALSE         |
+|FALSE         |FALSE|TRUE            |FALSE        |FALSE         |
+|FALSE         |TRUE |FALSE           |FALSE        |FALSE         |
+|FALSE         |TRUE |TRUE            |TRUE         |TRUE          |
+|TRUE          |FALSE|FALSE           |FALSE        |FALSE         |
+|TRUE          |FALSE|TRUE            |FALSE        |FALSE         |
+|TRUE          |TRUE |FALSE           |TRUE         |TRUE          |
+|TRUE          |TRUE |TRUE            |TRUE         |TRUE          |
+
 
 ### c
+|X == 0|Y == 0|first program|second program|
+|------|------|-------------|--------------|
+|TRUE  |TRUE  |FALSE        |FALSE         |
+|TRUE  |FALSE |FALSE        |FALSE         |
+|FALSE |TRUE  |FALSE        |FALSE         |
+|FALSE |FALSE |TRUE         |TRUE          |
 
 ### d
+|X > 10|Y > 0|first program|second program|
+|------|-----|-------------|--------------|
+|FALSE |FALSE|TRUE         |FALSE         |
+|FALSE |TRUE |TRUE         |FALSE         |
+|TRUE  |FALSE|FALSE        |FALSE         |
+|TRUE  |TRUE |TRUE         |TRUE          |
+
 
