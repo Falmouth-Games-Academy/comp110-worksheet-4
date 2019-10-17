@@ -32,7 +32,37 @@ true|true|true|false|false|true
 
 ### c
 
+A  |  B  |  C  |  NOT B  |  A OR NOT B |  A OR C  | (A OR NOT B) AND (A OR C)
+---|-----|-----|-----|-----|-----|---
+false|false|false|true|true|false|false
+false|false|true|true|true|true|true
+false|true|false|false|false|false|false
+false|true|true|false|false|true|false
+true|false|false|true|true|true|true
+true|false|true|true|true|true|true
+true|true|false|false|true|true|true
+true|true|true|false|true|true|true
+
 ### d
+
+A  |  B  |  C  |  D  |  NOT A  |  NOT C  |  B OR NOT C  |  NOT (B OR NOT C)  |  NOT A AND D  |  NOT (B OR NOT C) AND (NOT A AND D) |  A AND NOT (B OR NOT C) AND (NOT A AND D)
+---|-----|-----|-----|-----|-----|-----|---
+false|false|false|false|true|true|true|false|false|false|false
+false|false|false|true|true|true|true|false|true|false|false
+false|false|true|false|true|false|false|true|false|false|false
+false|false|true|true|true|false|false|true|true|true|false
+false|true|false|false|true|true|true|false|false|false|false
+false|true|false|true|true|true|true|false|true|false|false
+false|true|true|false|true|false|true|false|false|false|false
+false|true|true|true|true|false|true|false|true|false|false
+true|false|false|false|false|true|true|false|false|false|false
+true|false|false|true|false|true|true|false|false|false|false
+true|false|true|false|false|false|false|true|false|false|false
+true|false|true|true|false|false|false|true|false|false|false
+true|true|false|false|false|true|true|false|false|false|false
+true|true|false|true|false|true|true|false|false|false|false
+true|true|true|false|false|false|true|false|false|false|false
+true|true|true|true|false|false|true|false|false|false|false
 
 ## Question 2
 
