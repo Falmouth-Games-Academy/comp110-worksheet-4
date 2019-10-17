@@ -77,12 +77,46 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 3
 
 ### a
+|A    |B    |not (A or B)|not A and not B|
+|-----|-----|------------|---------------|
+|false|false|true        |true           |
+|false|true |false       |false          |
+|true |false|false       |false          |
+|true |true |false       |false          |
 
 ### b
+|A    |B    |not (A and B)|not A or not B|
+|-----|-----|-------------|--------------|
+|false|false|true         |true          |
+|false|true |true         |true          |
+|true |false|true         |true          |
+|true |true |false        |false         |
 
 ### c
+|A    |B    |C    |(A and B) or (A and C)|A and (B or C)|
+|-----|-----|-----|----------------------|--------------|
+|false|false|false|false                 |false         |
+|false|false|true |false                 |false         |
+|false|true |false|false                 |false         |
+|false|true |true |false                 |false         |
+|true |false|false|false                 |false         |
+|true |false|true |true                  |true          |
+|true |true |false|true                  |true          |
+|true |true |true |true                  |true          |
+
 
 ### d
+|A    |B    |C    |(A or B) and (A or C)|A or (B and C)|
+|-----|-----|-----|---------------------|--------------|
+|false|false|false|false                |false         |
+|false|false|true |false                |false         |
+|false|true |false|false                |false         |
+|false|true |true |true                 |true          |
+|true |false|false|true                 |true          |
+|true |false|true |true                 |true          |
+|true |true |false|true                 |true          |
+|true |true |true |true                 |true          |
+
 
 ## Question 4
 
