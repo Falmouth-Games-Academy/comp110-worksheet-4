@@ -118,7 +118,25 @@ true|true|true|true|true|true|true|true
 
 ### a
 
+"a.txt" exists  |  "b.txt" exists |  not("a.txt" and "b.txt")  |  not("a.txt") or not("b.txt")
+---|-----|-----|---
+false|false|true|true
+false|true|true|true
+true|false|true|true
+true|true|false|false
+
 ### b
+
+type(x) == int  |  x > 7  |  type(x) == float  |  type(x) == int and x > 7  |  type(x) == float and x > 7  | (type(x) == int and x > 7) or (type(x) == float and x > 7)  |  type(x) == int or type(x) == float  |  (type(x) == int or type(x) == float) and x > 7
+---|-----|-----|-----|-----|-----|-----|---
+false|false|false|false|false|false|false|false|
+false|false|true|false|false|false|true|false|
+false|true|false|false|false|false|false|false|
+false|true|true|false|true|true|true|true|true|
+true|false|false|false|false|false|true|false|
+true|false|true|false|false|false|true|false|
+true|true|false|true|false|true|true|true|
+true|true|true|true|true|true|true|true|
 
 ### c
 
