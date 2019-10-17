@@ -73,7 +73,7 @@ true|true|true|true|false|false|true|false|false|false|false
 ### a
 
 A  |  B  |  A OR B |  NOT (A OR B)  | NOT A | NOT B |  NOT A AND NOT B
----|-----|-----|-----|---
+---|-----|-----|-----|-----|-----|---
 false|false|false|true|true|true|true
 false|true|true|false|true|false|false
 true|false|true|false|false|true|false
