@@ -69,8 +69,10 @@ Please edit this README.md file with your answers to the worksheet questions.
 ![Logic Circuit 2](https://github.com/JIMBLYB/comp110-worksheet-4/blob/master/Logic%20Circuit%202.PNG)
 
 ### c
+![Logic Circuit 3](https://github.com/JIMBLYB/comp110-worksheet-4/blob/master/Logic%20Circuit%203.PNG)
 
 ### d
+![Logic Circuit 4](https://github.com/JIMBLYB/comp110-worksheet-4/blob/master/Logic%20Circuit%204.PNG)
 
 ## Question 3
 
