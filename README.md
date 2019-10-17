@@ -64,12 +64,16 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
+![](https://github.com/JBroughton2/comp110-worksheet-4/blob/master/Logic%20Circuit%201.PNG)
 
 ### b
+![](https://github.com/JBroughton2/comp110-worksheet-4/blob/master/Logic%20Circuit%202.PNG)
 
 ### c
+![](https://github.com/JBroughton2/comp110-worksheet-4/blob/master/Logic%20Circuit%203.PNG)
 
 ### d
+![](https://github.com/JBroughton2/comp110-worksheet-4/blob/master/Logic%20Circuit%204.PNG)
 
 ## Question 3
 
