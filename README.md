@@ -148,9 +148,9 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 4
 
 ### a
-
+Uses the identities shown in Question 3b
 ### b
-
+Uses the identities shown in Question 3c
 ### c
 
 ### d
