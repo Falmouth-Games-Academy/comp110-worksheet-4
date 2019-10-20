@@ -172,10 +172,15 @@ TODO:
 
 > Use truth tables to show that the following identities hold:
 
+![Redstone Equality (3{x})](redstone/CleanAll3.png)
+
 ### 3A
 
-CHECK:
 **NOT (A OR B) = NOT A AND NOT B**
+
+![Clean Redstone (3A)](redstone/Clean3A.png)
+
+- [Redstone (3A)](redstone/Diagram3A.png)
 
 | A   | B   | Output |
 | --- | --- | ------ |
@@ -186,8 +191,12 @@ CHECK:
 
 ### 3B
 
-CHECK:
 **NOT (A AND B) = NOT A OR NOT B**
+
+![Clean Redstone (3B)](redstone/Clean3B.png)
+
+- [Redstone (3B)](redstone/Diagram3B.png)
+
 
 | A   | B   | Output |
 | --- | --- | ------ |
@@ -198,35 +207,41 @@ CHECK:
 
 ### 3C
 
-TODO:
 **(A AND B) OR (A AND C) = A AND (B OR C)**
+
+![Clean Redstone (3C)](redstone/Clean3C.png)
+
+- [Redstone (3C)](redstone/Diagram3C.png)
 
 | A   | B   | C   | Output |
 | --- | --- | --- | ------ |
-| 0   | 0   | 0   |        |
-| 1   | 0   | 0   |        |
-| 0   | 1   | 0   |        |
-| 0   | 0   | 1   |        |
-| 1   | 1   | 0   |        |
-| 1   | 0   | 1   |        |
-| 0   | 1   | 1   |        |
-| 1   | 1   | 1   |        |
+| 0   | 0   | 0   | 0      |
+| 1   | 0   | 0   | 0      |
+| 0   | 1   | 0   | 0      |
+| 0   | 0   | 1   | 0      |
+| 1   | 1   | 0   | 1      |
+| 1   | 0   | 1   | 1      |
+| 0   | 1   | 1   | 0      |
+| 1   | 1   | 1   | 1      |
 
 ### 3D
 
-TODO:
 **(A OR B) AND (A OR C) = A OR (B AND C)**
+
+![Clean Redstone (3D)](redstone/Clean3D.png)
+
+- [Redstone (3D)](redstone/Diagram3D.png)
 
 | A   | B   | C   | Output |
 | --- | --- | --- | ------ |
-| 0   | 0   | 0   |        |
-| 1   | 0   | 0   |        |
-| 0   | 1   | 0   |        |
-| 0   | 0   | 1   |        |
-| 1   | 1   | 0   |        |
-| 1   | 0   | 1   |        |
-| 0   | 1   | 1   |        |
-| 1   | 1   | 1   |        |
+| 0   | 0   | 0   | 0      |
+| 1   | 0   | 0   | 1      |
+| 0   | 1   | 0   | 0      |
+| 0   | 0   | 1   | 0      |
+| 1   | 1   | 0   | 1      |
+| 1   | 0   | 1   | 1      |
+| 0   | 1   | 1   | 1      |
+| 1   | 1   | 1   | 1      |
 
 ## Question 4
 
