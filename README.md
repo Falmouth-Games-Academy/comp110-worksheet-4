@@ -245,53 +245,68 @@ TODO:
 
 ## Question 4
 
-> Explain, using the identities in Question 3 and/or truth tables, why each
-of the following pairs of programs is equivalent:
+> Explain, using the identities in Question 3 and/or truth tables, why each of the following pairs of programs is equivalent
 
 ### 4A
 
 TODO:
 ```py
+# [A]
 if not ( file_exists ("a . txt ") and file_exists ( "b. txt " )):
 	print ("A required file is missing ")
 	
+# [B]
 if not file_exists ("a . txt ") or not file_exists (" b. txt " ):
 	print ("A required file is missing ")
 ```
+
+If either `./a.txt` **OR** `./b.txt` does not exist THEN, print the message `"A required file is missing"`.
 
 ### 4B
 
 TODO:
 ```py
+# [A]
 if ( type ( x) == int and x > 7) or ( type (x) == float and x > 7):
 	print (" Hello ")
-	
+
+# [B]
 if ( type ( x) == int or type (x ) == float ) and x > 7:
 	print (" Hello ")
 ```
+
+If `x` is of type `int` (Integer) or `float` (Real) **AND** `x` is greater than `7` THEN, print `"Hello"`.
 
 ### 4C
 
 TODO:
 ```py
+# [A]
 if x == 0 and y == 0:
 	do_something ()
 else :
 	print (" Do nothing ")
-	
+
+# [B]
 if x != 0 or y != 0:
 	print (" Do nothing ")
 else :
 	do_something ()
 ```
 
+If `x` **AND** `y` are equal to `0` THEN, run method `do_something` with no arguments.
+
 ### 4D
 
 TODO:
 ```py
+# [A]
 if x > 10 or (x > 0 and y > 0):
 	do_something ()
-	
+
+# [B]
 if x > 0 and (x > 10 or y > 0):
 	do_something ()
 ```
+
+If `x` is less than `10` **OR** (`x` **AND** `y` are greater than `0`) THEN, run method `do_something` with no arguments.
