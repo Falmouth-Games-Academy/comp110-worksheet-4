@@ -73,13 +73,78 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 3
 
 ### a
+| A     | B     | NOT \(A OR B\) |
+|-------|-------|----------------|
+| FALSE | FALSE | TRUE           |
+| FALSE | TRUE  | FALSE          |
+| TRUE  | FALSE | FALSE          |
+| TRUE  | TRUE  | FALSE          |
 
+| A     | B     | NOT A AND NOT B |
+|-------|-------|-----------------|
+| FALSE | FALSE | TRUE            |
+| FALSE | TRUE  | FALSE           |
+| TRUE  | FALSE | FALSE           |
+| TRUE  | TRUE  | FALSE           |
 ### b
+| A     | B     | NOT \(A AND B) |
+|-------|-------|----------------|
+| FALSE | FALSE | TRUE           |
+| FALSE | TRUE  | TRUE           |
+| TRUE  | FALSE | TRUE           |
+| TRUE  | TRUE  | FALSE          |
 
+| A     | B     | NOT A OR NOT B |
+|-------|-------|----------------|
+| FALSE | FALSE | TRUE           |
+| FALSE | TRUE  | TRUE           |
+| TRUE  | FALSE | TRUE           |
+| TRUE  | TRUE  | FALSE          |
 ### c
+| A     | B     | C     | \(A AND B\) OR \(A AND C\) |
+|-------|-------|-------|----------------------------|
+| FALSE | FALSE | FALSE | FALSE                      |
+| FALSE | FALSE | TRUE  | FALSE                      |
+| FALSE | TRUE  | FALSE | FALSE                      |
+| FALSE | TRUE  | TRUE  | FALSE                      |
+| TRUE  | FALSE | FALSE | FALSE                      |
+| TRUE  | FALSE | TRUE  | TRUE                       |
+| TRUE  | TRUE  | FALSE | TRUE                       |
+| TRUE  | TRUE  | TRUE  | TRUE                       |
+
+| A     | B     | C     | A AND \(B OR C\) |
+|-------|-------|-------|------------------|
+| FALSE | FALSE | FALSE | FALSE            |
+| FALSE | FALSE | TRUE  | FALSE            |
+| FALSE | TRUE  | FALSE | FALSE            |
+| FALSE | TRUE  | TRUE  | FALSE            |
+| TRUE  | FALSE | FALSE | FALSE            |
+| TRUE  | FALSE | TRUE  | TRUE             |
+| TRUE  | TRUE  | FALSE | TRUE             |
+| TRUE  | TRUE  | TRUE  | TRUE             |
 
 ### d
+| A     | B     | C     | \(A OR B\) AND \(A OR C\) |
+|-------|-------|-------|---------------------------|
+| FALSE | FALSE | FALSE | FALSE                     |
+| FALSE | FALSE | TRUE  | FALSE                     |
+| FALSE | TRUE  | FALSE | FALSE                     |
+| FALSE | TRUE  | TRUE  | TRUE                      |
+| TRUE  | FALSE | FALSE | FALSE                     |
+| TRUE  | FALSE | TRUE  | TRUE                      |
+| TRUE  | TRUE  | FALSE | FALSE                     |
+| TRUE  | TRUE  | TRUE  | TRUE                      |
 
+| A     | B     | C     | A OR \(B AND C\) |
+|-------|-------|-------|------------------|
+| FALSE | FALSE | FALSE | FALSE            |
+| FALSE | FALSE | TRUE  | FALSE            |
+| FALSE | TRUE  | FALSE | FALSE            |
+| FALSE | TRUE  | TRUE  | TRUE             |
+| TRUE  | FALSE | FALSE | TRUE             |
+| TRUE  | FALSE | TRUE  | TRUE             |
+| TRUE  | TRUE  | FALSE | TRUE             |
+| TRUE  | TRUE  | TRUE  | TRUE             |
 ## Question 4
 
 ### a
