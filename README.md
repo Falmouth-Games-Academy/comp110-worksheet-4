@@ -67,7 +67,6 @@
 
 ### 1A
 
-TODO:
 **A and B and not C**
 
 | A   | B   | C   | Output |
@@ -83,7 +82,6 @@ TODO:
 
 ### 1B
 
-TODO:
 **A and not (B and not C)**
 
 | A   | B   | C   | Output |
@@ -99,7 +97,6 @@ TODO:
 
 ### 1C
 
-TODO:
 **(A or not B) and (A or C)**
 
 | A   | B   | C   | Output |
@@ -115,7 +112,6 @@ TODO:
 
 ### 1D
 
-TODO:
 **A and not (B or not C) and (not A and D)**
 
 | A   | B   | C   | D   | Output |
@@ -249,7 +245,6 @@ TODO:
 
 ### 4A
 
-TODO:
 ```py
 # [A]
 if not ( file_exists ("a . txt ") and file_exists ( "b. txt " )):
@@ -264,7 +259,6 @@ If either `./a.txt` **OR** `./b.txt` does not exist THEN, print the message `"A 
 
 ### 4B
 
-TODO:
 ```py
 # [A]
 if ( type ( x) == int and x > 7) or ( type (x) == float and x > 7):
@@ -279,7 +273,6 @@ If `x` is of type `int` (Integer) or `float` (Real) **AND** `x` is greater than 
 
 ### 4C
 
-TODO:
 ```py
 # [A]
 if x == 0 and y == 0:
@@ -298,7 +291,6 @@ If `x` **AND** `y` are equal to `0` THEN, run method `do_something` with no argu
 
 ### 4D
 
-TODO:
 ```py
 # [A]
 if x > 10 or (x > 0 and y > 0):
