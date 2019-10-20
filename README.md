@@ -63,8 +63,7 @@
 
 ## Question 1
 
-> Write out the truth tables for the following boolean expressions, for all
-possible values of boolean variables A, B, C, . . .:
+> Write out the truth tables for the following boolean expressions, for all possible values of boolean variables A, B, C, . . .
 
 ### 1A
 
@@ -143,19 +142,27 @@ TODO:
 
 ### 2A
 
-![Circuit2A](./circuits/2A.svg)
+![Diagram2A](./circuits/diagram_2A.svg)
+
+![Redstone2A](./circuits/redstone_2A.png)
 
 ### 2B
 
-![Circuit2B](./circuits/2B.svg)
+![Diagram2B](./circuits/diagram_2B.svg)
+
+![Redstone2B](./circuits/redstone_2B.png)
 
 ### 2C
 
-![Circuit2C](./circuits/2C.svg)
+![Diagram2C](./circuits/diagram_2C.svg)
+
+![Redstone2C](./circuits/redstone_2C.png)
 
 ### 2D
 
-![Circuit2D](./circuits/2D.svg)
+![Diagram2D](./circuits/diagram_2D.svg)
+
+![Redstone2D](./circuits/redstone_2D.svg)
 
 ## Question 3
 
