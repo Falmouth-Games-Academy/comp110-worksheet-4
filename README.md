@@ -142,27 +142,31 @@ TODO:
 
 ### 2A
 
-![Diagram2A](./circuits/diagram_2A.svg)
+![Clean Redstone](redstone/Clean2A.jpg)
 
-![Redstone2A](./circuits/redstone_2A.png)
+- [SVG (2A)](./circuits/2A.svg)
+- [Redstone (2A)](./redstone/Diagram2A.png)
 
 ### 2B
 
-![Diagram2B](./circuits/diagram_2B.svg)
+![Clean Redstone (2B)](redstone/Clean2B.jpg)
 
-![Redstone2B](./circuits/redstone_2B.png)
+- [SVG (2B)](./circuits/2B.svg)
+- [Redstone (2B)](./redstone/Diagram2B.png)
 
 ### 2C
 
-![Diagram2C](./circuits/diagram_2C.svg)
+![Clean Redstone](redstone/Clean2C.jpg)
 
-![Redstone2C](./circuits/redstone_2C.png)
+- [SVG (2C)](./circuits/2C.svg)
+- [Redstone (2C)](./redstone/Diagram2C.png)
 
 ### 2D
 
-![Diagram2D](./circuits/diagram_2D.svg)
+![Clean Redstone](redstone/Clean2D.jpg)
 
-![Redstone2D](./circuits/redstone_2D.svg)
+- [SVG (2D)](./circuits/2D.svg)
+- [Redstone (2D)](./redstone/Diagram2D.png)
 
 ## Question 3
 
