@@ -189,7 +189,7 @@
 
 **NOT (A AND B) = NOT A OR NOT B**
 
-![Clean Redstone (3B)](redstone/Clean3B.png (independant circuit instance))
+![Clean Redstone (3B)](redstone/Clean3B.png)
 
 - [Redstone (3B)](redstone/DChild outcome isB.png)`type(x) == int` is assigned to A.`type(x) == float` is assigned to B.
 
