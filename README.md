@@ -189,9 +189,9 @@
 
 **NOT (A AND B) = NOT A OR NOT B**
 
-![Clean Redstone (3B)](redstone/Clean3B.png)
+![Clean Redstone (3B)](redstone/Clean3B.png (independant circuit instance))
 
-- [Redstone (3B)](redstone/Diagram3B.png)
+- [Redstone (3B)](redstone/DChild outcome isB.png)`type(x) == int` is assigned to A.`type(x) == float` is assigned to B.
 
 
 | A   | B   | Output |
@@ -257,6 +257,11 @@ if not file_exists ("a . txt ") or not file_exists (" b. txt " ):
 
 If either `./a.txt` **OR** `./b.txt` does not exist THEN, print the message `"A required file is missing"`.
 
+Where referencing to 3A:
+- `file_exists("a.txt")` is assigned to A.
+- `file_exists("b.txt")` is assigned to B.
+- Condition output is assigned to Output.
+
 ### 4B
 
 ```py
@@ -270,6 +275,12 @@ if ( type ( x) == int or type (x ) == float ) and x > 7:
 ```
 
 If `x` is of type `int` (Integer) or `float` (Real) **AND** `x` is greater than `7` THEN, print `"Hello"`.
+
+Where referencing to 3C:
+- `x > 7` is assigned to A.
+- `type(x) == int` is assigned to B.
+- `type(x) == float` is assigned to C.
+- Condition output is assigned to Output.
 
 ### 4C
 
@@ -289,6 +300,11 @@ else :
 
 If `x` **AND** `y` are equal to `0` THEN, run method `do_something` with no arguments.
 
+Where referencing to 3B:
+- `x == 0` is assigned to A.
+- `y == 0` is assigned to B.
+- Condition output is assigned to Output.
+
 ### 4D
 
 ```py
@@ -302,3 +318,8 @@ if x > 0 and (x > 10 or y > 0):
 ```
 
 If `x` is less than `10` **OR** (`x` **AND** `y` are greater than `0`) THEN, run method `do_something` with no arguments.
+
+Where referencing to 3D:
+- `x > 10` is assigned to A.
+- `x > 0` is assigned to B.
+- `y > 0` is assigned to C.
