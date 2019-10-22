@@ -1,10 +1,20 @@
 # COMP110 Worksheet 4
 
-Please edit this README.md file with your answers to the worksheet questions.
-
 ## Question 1
 
 ### a
+
+|A    |B    |C    |A AND B  |NOT C |A AND B NOT C|
+|-----|-----|-----|---------|------|-------------|
+|FALSE|FALSE|FALSE|FALSE    |TRUE  |FALSE        |
+|FALSE|FALSE|TRUE |FALSE    |FALSE |FALSE        |
+|FALSE|TRUE |FALSE|FALSE    |TRUE  |FALSE        |
+|FALSE|TRUE |TRUE |FALSE    |FALSE |FALSE        |
+|TRUE |FALSE|FALSE|FALSE    |TRUE  |FALSE        |
+|TRUE |FALSE|TRUE |FALSE    |FALSE |FALSE        |
+|TRUE |TRUE |FALSE|TRUE     |TRUE  |TRUE         |
+|TRUE |TRUE |TRUE |TRUE     |FALSE |FALSE        |
+
 
 ### b
 
