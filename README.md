@@ -15,8 +15,18 @@
 |TRUE |TRUE |FALSE|TRUE     |TRUE  |TRUE         |
 |TRUE |TRUE |TRUE |TRUE     |FALSE |FALSE        |
 
-
 ### b
+
+|A    |B    |C    |B AND NOT C |A AND NOT (B AND NOT C)|
+|-----|-----|-----|------------|-----------------------|
+|FALSE|FALSE|FALSE|FALSE       |FALSE                  |
+|FALSE|FALSE|TRUE |FALSE       |FALSE                  |
+|FALSE|TRUE |FALSE|TRUE        |FALSE                  |
+|FALSE|TRUE |TRUE |FALSE       |FALSE                  |
+|TRUE |FALSE|FALSE|FALSE       |TRUE                   |
+|TRUE |FALSE|TRUE |FALSE       |TRUE                   |
+|TRUE |TRUE |FALSE|TRUE        |FALSE                  |
+|TRUE |TRUE |TRUE |FALSE       |TRUE                   |
 
 ### c
 
