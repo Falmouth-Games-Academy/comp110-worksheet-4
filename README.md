@@ -30,6 +30,17 @@
 
 ### c
 
+|A    |B    |C    |A OR NOT B  |A OR C                 |(A OR NOT B) AND (A OR C)|
+|-----|-----|-----|------------|-----------------------|-------------------------|
+|FALSE|FALSE|FALSE|TRUE        |FALSE                  |FALSE                    |
+|FALSE|FALSE|TRUE |TRUE        |TRUE                   |TRUE                     |
+|FALSE|TRUE |FALSE|FALSE       |FALSE                  |FALSE                    |
+|FALSE|TRUE |TRUE |FALSE       |TRUE                   |FALSE                    |
+|TRUE |FALSE|FALSE|TRUE        |TRUE                   |TRUE                     |
+|TRUE |FALSE|TRUE |TRUE        |TRUE                   |TRUE                     |
+|TRUE |TRUE |FALSE|TRUE        |TRUE                   |TRUE                     |
+|TRUE |TRUE |TRUE |TRUE        |TRUE                   |TRUE                     |
+
 ### d
 
 ## Question 2
