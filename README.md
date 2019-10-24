@@ -215,7 +215,7 @@ if x > 10 or (x > 0 and y > 0) maps to A OR (B AND C)
 |111| 1 | 1 |
 
 2.  
-if x > 0 and (x > 10 or y > 0) maps to B&(A OR C)  
+if x > 0 and (x > 10 or y > 0) maps to B AND(A OR C)  
 
 |ABC|A+C|B&(A+C)|
 |---|---|---|
