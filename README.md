@@ -47,6 +47,18 @@ A AND NOT (B AND NOT C)
 |F |F |F | 	True 	  |	False	| False|
 
 ### d
+A AND NOT (B OR NOT C) AND (NOT A AND D)
+
+|A |B |C |D | (B or not C) | (not A and D) | A and not (B or not C) and (not A and D) |
+|---|---|---|---|---|---|---|
+|T |T |T |T |
+|T |T |T |F |
+|T |T |F |F |
+|T |F |F |F |
+|T |F |F |T | 
+|T |F |T |T |  
+|T |T |F |T |
+|T |T |F |F |
 
 ## Question 2
 
