@@ -4,7 +4,16 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ## Question 1
 
-### a
+### a | A | B | C | X |
+      |---|---|---|---|
+      | 0 | 0 | 0 | 0 |
+      | 0 | 1 | 0 | 0 |
+      | 1 | 0 | 0 | 0 |
+      | 1 | 1 | 0 | 1 |
+      | 0 | 0 | 1 | 0 |
+      | 0 | 1 | 1 | 0 |
+      | 1 | 0 | 1 | 0 |
+      | 1 | 1 | 1 | 0 |
 
 ### b
 
