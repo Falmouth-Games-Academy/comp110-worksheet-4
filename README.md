@@ -63,16 +63,16 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
-![Alt text](/E-Peters-2205/comp110-worksheet-4/blob/master/2A.PNG?raw=true)
+![2A](https://github.com/E-Peters-2205/comp110-worksheet-4/blob/master/2A.PNG?raw=true)
 
 ### b
-
+![2B](https://github.com/E-Peters-2205/comp110-worksheet-4/blob/master/2B.PNG?raw=true)
 
 ### c
-
+![2C](https://github.com/E-Peters-2205/comp110-worksheet-4/blob/master/2C.PNG?raw=true)
 
 ### d
-
+![2D](https://github.com/E-Peters-2205/comp110-worksheet-4/blob/master/2D.PNG?raw=true)
 
 ## Question 3
 
