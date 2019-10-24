@@ -155,13 +155,58 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 4
 
 ### a
+| a | b | a AND b | NOT(a AND b) |
+|---|---|---------|--------------|
+| 0 | 0 | 0       | 1            |
+| 0 | 1 | 0       | 1            |
+| 1 | 0 | 0       | 1            |
+| 1 | 1 | 1       | 0            |
 
+| a | b | NOT a | NOT b | NOT a OR NOT b |
+|---|---|-------|-------|----------------|
+| 0 | 0 | 1     | 1     | 1              |
+| 0 | 1 | 1     | 0     | 1              |
+| 1 | 0 | 0     | 1     | 1              |
+| 1 | 1 | 0     | 0     | 0              |
 
 ### b
-
+The first program is to output "Hello" if [x] is an integer greater than 7 OR if [x] is a float greater than 7, while the second is to output "Hello" if [x] is an interger OR a float that is greater than 7. These mean the same thing because if we let [x] is an interger be [x = 1] and [x] is greater than 7 be [s = 1] then [(x AND s) OR (NOT x AND s)] is the same as [(x OR NOT x) AND s].
 
 ### c
+| x | y | NOT x | NOT y | NOT x AND NOT y |
+|---|---|-------|-------|-----------------|
+| 0 | 0 | 1     | 1     | 1               |
+| 0 | 1 | 1     | 0     | 0               |
+| 1 | 0 | 0     | 1     | 0               |
+| 1 | 1 | 0     | 0     | 0               |
 
+| x | y | x OR y | NOT (x OR y) |
+|---|---|--------|--------------|
+| 0 | 0 | 0      | 1            |
+| 0 | 1 | 1      | 0            |
+| 1 | 0 | 1      | 0            |
+| 1 | 1 | 1      | 0            |
 
 ### d
+Let [x > 10] be [x = 1]
+Let [x > 0] be [z = 1]
+Let [y > 0] be [y = 1]
+Therefore if [x = 1], [z = 1]
 
+| x | y | z | z AND y | x OR (z AND y) |
+|---|---|---|---------|----------------|
+| 0 | 0 | 0 | 0       | 0              |
+| 0 | 0 | 1 | 0       | 0              |
+| 0 | 1 | 0 | 0       | 0              |
+| 0 | 1 | 1 | 1       | 1              |
+| 1 | 0 | 1 | 0       | 1              |
+| 1 | 1 | 1 | 1       | 1              |
+
+| x | y | z | x OR y | z AND (x OR y) |
+|---|---|---|--------|----------------|
+| 0 | 0 | 0 | 0      | 0              |
+| 0 | 0 | 1 | 0      | 0              |
+| 0 | 1 | 0 | 1      | 0              |
+| 0 | 1 | 1 | 1      | 1              |
+| 1 | 0 | 1 | 1      | 1              |
+| 1 | 1 | 1 | 1      | 1              |
