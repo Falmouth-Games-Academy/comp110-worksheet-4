@@ -68,11 +68,19 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
+![Question 2a circuit diagram](Q2A_circuit.png)
+
 ### b
+
+![Question 2b circuit diagram](Q2B_circuit.png)
 
 ### c
 
+![Question 2c circuit diagram](Q2C_circuit.png)
+
 ### d
+
+![Question 2d circuit diagram](Q2D_circuit.png)
 
 ## Question 3
 
