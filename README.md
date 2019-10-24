@@ -67,7 +67,9 @@ A | B | C | D |NOT C|NOT A|NOT A AND D|B OR NOT C|NOT (B OR NOT C)|A AND NOT (B 
 
 ## Question 2
 
-### a
+### A
+
+![1A](1A.png)
 
 ### b
 
