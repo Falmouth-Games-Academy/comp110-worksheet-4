@@ -113,7 +113,18 @@ NOT (A AND B) = NOT A OR NOT B
 |false|false|false||
 
 ### d
+(A OR B) AND (A OR C) = A OR (B AND C)
 
+|A|B|C|RESULT|
+|:---:|:---:|:---:|:---:|
+|true|true|true||
+|true|true|false||
+|true|false|true||
+|true|false|false||
+|false|true|true||
+|false|true|false||
+|false|false|true||
+|false|false|false||
 
 ## Question 4
 
