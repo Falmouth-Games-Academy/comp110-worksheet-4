@@ -60,13 +60,13 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
-![A and B and Not C](./A and B and Not C.PNG)
+See A and B and Not C.PNG
 ### b
-![A and Not(B and Not C)](./A and Not(B and Not C).PNG)
+See A and Not(B and Not C).PNG
 ### c
-![(A or Not B) and (A or C)](./(A or Not B) and (A or C).PNG)
+See (A or Not B) and (A or C).PNG
 ### d
-![A and Not (B or Not C) and(Not A and D)](./A and Not (B or Not C) and(Not A and D).PNG)
+See A and Not (B or Not C) and(Not A and D).PNG
 ## Question 3
 
 ### a
