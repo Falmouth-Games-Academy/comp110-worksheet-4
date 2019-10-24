@@ -132,11 +132,15 @@
 
 ## Question 4
 
-### a
+### A
 
-### b
+It is the same as Question 3B.\
+```python
+if not(file_exists("a.txt")
+```
+### B
 
-### c
+### C
 
-### d
+### D
 
