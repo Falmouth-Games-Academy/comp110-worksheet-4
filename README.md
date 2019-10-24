@@ -144,6 +144,8 @@
 
 ```NOT (A AND B) = NOT A OR NOT B```
 
+The reason that these are equivalent is because the first condition is the exact same as saying ```NOT (A AND B)```.
+
 ### b
 
 |type(x) == int|type(x) == float|x > 0|First Condition|Second Condition|QUESTION 3 C|
@@ -162,6 +164,8 @@
 ```if (type(x) == int or type(x) == float) and x > 7:```
 
 ```(A AND B) OR (A AND C) = A AND (B OR C)```
+
+The reasons that these are equivalent is because the first statment is the same as saying ```(B and A) OR (C and A)``` which you can rearrange ot make ```(A AND B) OR (A AND C)```.
 
 ### c
 
@@ -188,6 +192,8 @@ else:
 
 ```NOT (A AND B) = NOT A OR NOT B```
 
+The second condition is equal to the identity because you can write it as ```NOT A OR NOT B```.
+
 ### d
 
 |x > 0|x > 10|y > 0|First Condition|Second Condition|QUESTION 3 D|
@@ -212,3 +218,5 @@ if x > 0 and (x > 10 or y > 0)
 ```
 
 ```(A OR B) AND (A OR C) = A OR (B AND C)```
+
+The second condition is equal to the identity because you can write the condition as ```A OR (B AND C)```
