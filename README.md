@@ -65,12 +65,20 @@
 ## Question 2
 
 ### a
+#### A AND B AND NOT C
+![First_Logic_Gate](https://github.com/Koltonix/comp110-worksheet-4/blob/master/Logic_Gates_A.PNG)
 
 ### b
+#### A AND NOT (B AND NOT C)
+![Second_Logic_Gate](https://github.com/Koltonix/comp110-worksheet-4/blob/master/Logic_Gates_B.PNG)
 
 ### c
+#### (A OR NOT B) AND (A OR C)
+![Third_Logic_Gate](https://github.com/Koltonix/comp110-worksheet-4/blob/master/Logic_Gates_C.PNG)
 
 ### d
+#### A AND NOT (B OR NOT C) AND (NOT A AND D)
+![Fourth_Logic_Gate](https://github.com/Koltonix/comp110-worksheet-4/blob/master/Logic_Gates_D.PNG)
 
 ## Question 3
 
