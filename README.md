@@ -67,15 +67,21 @@ A | B | C | D |NOT C|NOT A|NOT A AND D|B OR NOT C|NOT (B OR NOT C)|A AND NOT (B 
 
 ## Question 2
 
-### A
+### A: A AND B AND NOT C
 
 ![1A](1A.png)
 
-### b
+### B: A AND NOT (B AND NOT C)
 
-### c
+![1B](1B.png)
 
-### d
+### C: (A OR NOT B)  AND  (A OR C)
+
+![1C](1C.png)
+
+### D: A AND NOT (B OR NOT C) AND (NOT A AND D)
+
+![1D](1D.png)
 
 ## Question 3
 
