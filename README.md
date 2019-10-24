@@ -151,7 +151,13 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### c
 
-
+|x = 0|y = 0|x = 0 AND y = 0    |NOT (NOT x OR NOT y)|
+|:---:|:---:|:-----------------:|:------------------:|
+|FALSE|FALSE|FALSE              |FALSE               |
+|FALSE|TRUE |FALSE              |FALSE               |
+|TRUE |FALSE|FALSE              |FALSE               |
+|TRUE |TRUE |TRUE               |TRUE                |
 
 ### d
+
 
