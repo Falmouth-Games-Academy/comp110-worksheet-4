@@ -135,7 +135,7 @@
 ### A
 
 It is the same as Question 3B.
-The line of code `if not(file_exists("a.txt") and file_exists("b.txt"))`
+The line of code `if not(file_exists("a.txt") and file_exists("b.txt"))`\
 Is the same as `NOT ( A AND B)`
 
 ### B
