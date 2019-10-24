@@ -30,6 +30,8 @@ Please edit this README.md file with your answers to the worksheet questions.
 | 1 | 1 | 0 | 0         |
 | 1 | 1 | 1 | 1         |
 
+![LogicCircuitB](logicCircuitB.PNG)
+
 ### c
 | A | B | C | (A∨¬B)∧(A∨C) |
 |---|---|---|--------------|
