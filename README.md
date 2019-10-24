@@ -16,6 +16,8 @@ Please edit this README.md file with your answers to the worksheet questions.
 | 1 | 0 | 1 | 0      |
 | 1 | 1 | 1 | 0      |
 
+![LogicCircuitA](LogicCircuitA.png)
+
 ### b
 | A | B | C | A^¬(B^¬C) |
 |---|---|---|-----------|
