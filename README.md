@@ -6,19 +6,21 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a 
 	A and B and not C
-	| A | B | C | A and B and not c
+	
+	| A | B | C | A and B and not c|
 	|---|---|---|---|
-	| T	| T	| T	|	False
-	| T	| T	| F	|	True
-	| T	| F	| T	|	False
-	| T	| F	| F	|	False
-	| F	| F	| F	|	False
-	| F	| T	| F	|	False
-	| F	| T	| T	|	False
-	| F	| F	| T	|	True
+	| T	| T	| T	|	False|
+	| T	| T	| F	|	True|
+	| T	| F	| T	|	False|
+	| T	| F	| F	|	False|
+	| F	| F	| F	|	False|
+	| F	| T	| F	|	False|
+	| F	| T	| T	|	False|
+	| F	| F	| T	|	True|
 
 ### b
 	A AND NOT (B AND NOT C)
+	
 	| A | B | C | not C |  (B and not c)|
 	|---|---|---|---|---|
 	| T	| T	| T	| False	|	False		|
