@@ -102,6 +102,17 @@
 
 ### c
 
+|A    |B    |C    |(A AND B) OR (A AND C)|A AND (B OR C)|
+|-----|-----|-----|----------------------|--------------|
+|FALSE|FALSE|FALSE|FALSE                 |FALSE         |
+|FALSE|FALSE|TRUE |FALSE                 |FALSE         |
+|FALSE|TRUE |FALSE|FALSE                 |FALSE         |
+|FALSE|TRUE |TRUE |FALSE                 |FALSE         |
+|TRUE |FALSE|FALSE|FALSE                 |FALSE         |
+|TRUE |FALSE|TRUE |TRUE                  |TRUE          |
+|TRUE |TRUE |FALSE|TRUE                  |TRUE          |
+|TRUE |TRUE |TRUE |TRUE                  |TRUE          |
+
 ### d
 
 ## Question 4
