@@ -4,13 +4,13 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ## Question 1
 
-### a !(table A)[https://i.imgur.com/Y73IsLs.png]
+### a ![table A](https://i.imgur.com/Y73IsLs.png)
 
-### b !(table B)[https://i.imgur.com/7A8U0Hi.png]
+### b ![table B](https://i.imgur.com/7A8U0Hi.png)
 
-### c !(table C)[https://i.imgur.com/LY7cnXk.png]
+### c ![table C](https://i.imgur.com/LY7cnXk.png)
 
-### d !(table D)[https://i.imgur.com/pyWBuhw.png]
+### d ![table D](https://i.imgur.com/pyWBuhw.png)
 
 ## Question 2
 
