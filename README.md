@@ -16,7 +16,6 @@ Please edit this README.md file with your answers to the worksheet questions.
 | 1 | 0 | 1 | 0      |
 | 1 | 1 | 1 | 0      |
 
-![LogicCircuitA](LogicCircuitA.PNG)
 
 ### b
 | A | B | C | A^¬(B^¬C) |
@@ -30,7 +29,6 @@ Please edit this README.md file with your answers to the worksheet questions.
 | 1 | 1 | 0 | 0         |
 | 1 | 1 | 1 | 1         |
 
-![LogicCircuitB](logicCircuitB.PNG)
 
 ### c
 | A | B | C | (A∨¬B)∧(A∨C) |
@@ -44,7 +42,6 @@ Please edit this README.md file with your answers to the worksheet questions.
 | 1 | 1 | 0 | 1            |
 | 1 | 1 | 1 | 1            |
 
-![LogicCircuitC](logicCircuitC.PNG)
 
 ### d
 | A | B | C | D | A∧¬(B∨¬C)∧(¬A∧D) |
@@ -66,18 +63,24 @@ Please edit this README.md file with your answers to the worksheet questions.
 | 1 | 1 | 1 | 0 | 0                |
 | 1 | 1 | 1 | 1 | 0                |
 
-![LogicCircuitD](logicCircuitD.PNG)
 
 ## Question 2
 
 ### a
 
+![LogicCircuitA](LogicCircuitA.PNG)
 
 ### b
 
+![LogicCircuitB](logicCircuitB.PNG)
+
 ### c
 
+![LogicCircuitC](logicCircuitC.PNG)
+
 ### d
+
+![LogicCircuitD](logicCircuitD.PNG)
 
 ## Question 3
 
