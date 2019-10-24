@@ -190,8 +190,36 @@ x > 7 maps to A, type(x) == int maps to B, type(x) == float maps to C
 
 ### c
 
-
+(if x == 0 and y == 0) maps to A AND B  
+(if x != 0 or y != 0) maps to NOT A OR NOT B  
+They are equal because the result of the if statement is inverted so  
+A AND B can be written as NOT(A AND B) and then the result of the statement can be flipped  
+so NOT(A AND B) = NOT A OR NOT B as seen in question 3b
 
 ### d
 
+This pair of programs is not equivalent  
 
+1.
+|ABC|B&C|A+(B&C)|
+|---|---|---|
+|000| 0 | 0 |
+|001| 0 | 0 |
+|010| 0 | 0 |
+|100| 0 | 1 |
+|011| 1 | 1 |
+|101| 0 | 1 |
+|110| 0 | 1 |
+|111| 1 | 1 |
+
+2.
+|ABC|A+C|B&(A+C)|
+|---|---|---|
+|000| 0 | 0 |
+|001| 1 | 0 |
+|010| 0 | 0 |
+|100| 1 | 1 |
+|011| 1 | 0 |
+|101| 1 | 0 |
+|110| 1 | 1 |
+|111| 1 | 1 |
