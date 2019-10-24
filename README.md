@@ -84,7 +84,21 @@
 
 ### a
 
+|A    |B    |NOT (A OR B)|NOT A AND NOT B|
+|-----|-----|------------|---------------|
+|FALSE|FALSE|TRUE        |TRUE           |
+|FALSE|TRUE |FALSE       |FALSE          |
+|TRUE |FALSE|FALSE       |FALSE          |
+|TRUE |TRUE |FALSE       |FALSE          |
+
 ### b
+
+|A    |B    |NOT (A AND B)|NOT A OR NOT B|
+|-----|-----|-------------|--------------|
+|FALSE|FALSE|TRUE         |TRUE          |
+|FALSE|TRUE |TRUE         |TRUE          |
+|TRUE |FALSE|TRUE         |TRUE          |
+|TRUE |TRUE |FALSE        |FALSE         |
 
 ### c
 
