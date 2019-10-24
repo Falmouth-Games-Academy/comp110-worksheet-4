@@ -68,11 +68,13 @@ Please edit this README.md file with your answers to the worksheet questions.
 ![](https://raw.githubusercontent.com/JD233113/comp110-worksheet-4/master/logic1.PNG)
 
 ### b
-
+![](https://raw.githubusercontent.com/JD233113/comp110-worksheet-4/master/logic2.PNG)
 
 ### c
+![](https://raw.githubusercontent.com/JD233113/comp110-worksheet-4/master/logic3.PNG)
 
 ### d
+![](https://raw.githubusercontent.com/JD233113/comp110-worksheet-4/master/logic4.PNG)
 
 ## Question 3
 
