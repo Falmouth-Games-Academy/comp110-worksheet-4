@@ -81,6 +81,8 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 ## Question 3
 
 ### a
+A AND B AND NOT C
+
 |A |B | not (A or B)| not A and not B |
 |---|---|---|---|
 |T |F |False|False |
@@ -88,7 +90,11 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 |F |F |True |True  |
 |F |T |False|False |
 
+They are equal
+
 ### b
+A AND NOT (B AND NOT C)
+
 |A |B | not (A and B) | not A or not B |
 |---|---|---|---|
 |T |F |True |True |
@@ -96,7 +102,11 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 |F |F |True |True |
 |F |T |True |True |
 
+They are equal
+
 ### c
+(A OR NOT B) AND (A OR C)
+
 |A |B |C | (A and B) | (A and C) | (A and B) or (A and C)| (B or C) |A and (B or C)
 |---|---|---|---|---|---|---|---|
 |T |T |T |True |True |True |True |True |
@@ -108,7 +118,33 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 |F |T |T |False|False|False|True |False|
 |F |T |F |False|False|False|True |False|
 
+They are not the same
+
 ### d
+A AND NOT (B OR NOT C) AND (NOT A AND D)
+
+|A |B |C |D | (B or not C) | (not A and D) |
+|---|---|---|---|---|---|
+|T |T |T |T | True | False|
+|T |T |T |F | True | False|
+|T |T |F |F | True | False|
+|T |F |F |F | True | False|
+|T |T |F |T | True | False|
+|T |F |T |F | False| False|
+|T |F |T |T | False| False|
+|T |F |F |T | True | False|
+|F |F |F |F | True | False|
+|F |T |T |F | True | False|
+|F |T |F |F | True | False|
+|F |T |T |T | True | True |
+|F |T |F |T | True | True |
+|F |F |T |F | False| False|
+|F |F |T |T | False| True |
+|F |F |F |T | True | True |
+
+
+
+
 
 ## Question 4
 
