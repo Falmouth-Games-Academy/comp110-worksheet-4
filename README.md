@@ -21,16 +21,16 @@ A and B and not C
 ### b
 A AND NOT (B AND NOT C)
 
-| A | B | C | not C |  (B and not c)|
-|---|---|---|---|---|
-| T	| T	| T	| False	|False|
-| T	| T	| F	| True	|True|
-| T	| F	| T	| False	|False|
-| T	| F	| F	| True	|True|
-| F	| F	| F	| True	|True|
-| F	| T	| F	| True	|True|
-| F	| T	| T	| False	|True|
-| F	| F	| T	| False	|True|
+| A | B | C | not C |  (B and not c)| A and not (B and not C)|
+|---|---|---|---|---|---|
+| T	| T	| T	| False	|False|True|
+| T	| T	| F	| True	|True|False|
+| T	| F	| T	| False	|False|True|
+| T	| F	| F	| True	|True|False|
+| F	| F	| F	| True	|True|False|
+| F	| T	| F	| True	|True|False|
+| F	| T	| T	| False	|False|True|
+| F	| F	| T	| False	|False|True|
 
 ### c
 
