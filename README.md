@@ -4,7 +4,7 @@
 
 ## Question 1
 
-### a
+### A: A AND B AND NOT C
 
 A | B | C | A AND B | NOT C | A AND B AND NOT C
 ---|---|---|---|---|---
@@ -16,7 +16,7 @@ A | B | C | A AND B | NOT C | A AND B AND NOT C
  1 | 1 | 0 | 1 | 1 | 1
  1 | 1 | 1 | 1 | 0 | 0
 
-### b
+### B: A AND NOT (B AND NOT C)
 
 A | B | C | NOT C | B AND NOT C | NOT (B AND NOT C) | A AND NOT (B AND NOT C)
 ---|---|---|---|---|---|---
@@ -29,7 +29,7 @@ A | B | C | NOT C | B AND NOT C | NOT (B AND NOT C) | A AND NOT (B AND NOT C)
  1 | 1 | 0 | 0 | 1 | 0 | 0
  1 | 1 | 1 | 1 | 0 | 1 | 1
 
-### c
+### C: (A OR NOT B)  AND  (A OR C)
 
 A | B | C |NOT B|A OR NOT B| A OR C|(A OR NOT B) AND (A OR C)
 ---|---|---|---|---|---|---
@@ -42,7 +42,7 @@ A | B | C |NOT B|A OR NOT B| A OR C|(A OR NOT B) AND (A OR C)
  1 | 1 | 0 | 0 | 1 | 1 | 1
  1 | 1 | 1 | 0 | 1 | 1 | 1
 
-### d
+### D: A AND NOT (B OR NOT C) AND (NOT A AND D)
 
 A | B | C | D |NOT C|NOT A|NOT A AND D|B OR NOT C|NOT (B OR NOT C)|A AND NOT (B OR NOT C)|A AND NOT (B OR NOT C) AND (NOT A AND D)
 ---|---|---|---|---|---|---|---|---|---|---
