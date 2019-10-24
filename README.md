@@ -16,21 +16,21 @@ A and B and not C
 | F	| F	| F	|False|
 | F	| T	| F	|False|
 | F	| T	| T	|False|
-| F	| F	| T	|True|
+| F	| F	| T	|False|
 
 ### b
 A AND NOT (B AND NOT C)
 
 | A | B | C | not C |  (B and not c)| A and not (B and not C)|
 |---|---|---|---|---|---|
-| T	| T	| T	| False	|False|True|
-| T	| T	| F	| True	|True|False|
-| T	| F	| T	| False	|False|True|
-| T	| F	| F	| True	|True|False|
-| F	| F	| F	| True	|True|False|
-| F	| T	| F	| True	|True|False|
-| F	| T	| T	| False	|False|True|
-| F	| F	| T	| False	|False|True|
+| T	| T	| T	| False	|False |True |
+| T	| T	| F	| True	|True  |False|
+| T	| F	| T	| False	|False |True |
+| T	| F	| F	| True	|True  |False|
+| F	| F	| F	| True	|True  |False|
+| F	| T	| F	| True	|True  |False|
+| F	| T	| T	| False	|False |True |
+| F	| F	| T	| False	|False |True |
 
 ### c
 (A or not B) and (A or C)
@@ -71,7 +71,7 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 ## Question 2
 
 ### a
-
+	![Answer A picture](LogicCircuitA.PNG)
 ### b
 
 ### c
