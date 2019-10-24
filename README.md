@@ -85,13 +85,13 @@ A | B | C | D |NOT C|NOT A|NOT A AND D|B OR NOT C|NOT (B OR NOT C)|A AND NOT (B 
 
 ## Question 3
 
-### a
+### A: NOT (A OR B) = NOT A AND NOT B
 
-### b
+### B: NOT (A AND B) = NOT A OR NOT B
 
-### c
+### C: (A AND B) OR (A AND C) = A AND (B OR C)
 
-### d
+### D: (A OR B) AND (A OR C) = A OR (B AND C)
 
 ## Question 4
 
