@@ -124,7 +124,7 @@ They are not the same
 (A OR B) AND (A OR C) = A OR (B AND C)
 
 |A |B |C | (A or B) | (A or C) |(A or B) and (A or C) | (B and C)| A or (B and C)|
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|
 |T |T |T | True | True |True |True |True |
 |T |T |F | True | True |True |False|True |
 |T |F |F | True | False|False|False|True |
