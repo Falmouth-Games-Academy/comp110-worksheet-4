@@ -160,4 +160,9 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### d
 
-
+|x > 10|y > 0 |x > 10 OR (x > 0 AND y > 0)|x > 0 AND (x > 10 OR y > 0)|
+|:----:|:----:|:-------------------------:|:-------------------------:|
+|FALSE |FALSE |FALSE                      |FALSE                      |
+|FALSE |TRUE  |TRUE                       |TRUE                       |
+|TRUE  |FALSE |TRUE                       |TRUE                       |
+|TRUE  |TRUE  |TRUE                       |TRUE                       |
