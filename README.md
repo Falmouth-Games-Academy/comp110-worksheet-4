@@ -81,10 +81,32 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 ## Question 3
 
 ### a
+|A |B | not (A or B)| not A and not B |
+|---|---|---|---|
+|T |F |False|False |
+|T |T |False|False |
+|F |F |True |True  |
+|F |T |False|False |
 
 ### b
+|A |B | not (A and B) | not A or not B |
+|---|---|---|---|
+|T |F |True |True |
+|T |T |False|False|
+|F |F |True |True |
+|F |T |True |True |
 
 ### c
+|A |B |C | (A and B) | (A and C) | (A and B) or (A and C)| (B or C) |A and (B or C)
+|---|---|---|---|---|---|---|---|
+|T |T |T |True |True |True |True |True |
+|T |T |F |True |False|True |True |True |
+|T |F |F |False|False|False|False|False|
+|T |F |T |False|True |True |True |False|
+|F |F |F |False|False|False|False|False|
+|F |F |T |False|False|False|True |False|
+|F |T |T |False|False|False|True |False|
+|F |T |F |False|False|False|True |False|
 
 ### d
 
