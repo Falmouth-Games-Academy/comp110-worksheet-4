@@ -183,7 +183,10 @@ file_exists("a.txt") maps to A, file_exists("b.txt") maps to B
   
 ### b
 
-
+x > 7 maps to A, type(x) == int maps to B, type(x) == float maps to C  
+4a)1. maps to NOT(A AND B) OR (A AND C)  
+   2. maps to NOT A AND (B or C)  
+  NOT(A AND B) OR (A AND C) = NOT A AND (B or C) as shown in question 3c therefore the identity holds.
 
 ### c
 
