@@ -4,10 +4,11 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ## Question 1
 
-### a
+### a (A AND B AND NOT C)
 
-|header|aaaa|
-|:---:|:---:|
+|A|B|C|
+|:---:|:---:|:---:|
+|true|true|false|
 
 ### b
 
