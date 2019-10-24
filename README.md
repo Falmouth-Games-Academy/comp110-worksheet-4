@@ -19,15 +19,11 @@ Question 1 and Question 2
 | 0 | 1 | 1 | 0      |
 | 1 | 1 | 1 | 0      |
 
-### [./media/image1.jpeg](./media/image1.jpeg)
+![A picture containing wall, indoor Description automatically generated](media/ac9a2ad20ed3f3b001a506e47e760624.jpg)
 
-  
-  
-  
-  
-  
-  
+A picture containing wall, indoor Description automatically generated
 
+A picture containing wall, indoor Description automatically generated
 
 ### B
 
@@ -57,7 +53,11 @@ Question 1 and Question 2
 | 0 | 1 | 1 | 0      |
 | 1 | 1 | 1 | 1      |
 
-### [./media/image3.jpeg](./media/image3.jpeg)
+![A close up of a device Description automatically generated](media/d705e1a7c2583d448478092c3c4c695e.jpg)
+
+A close up of a device Description automatically generated
+
+\~ A close up of a device Description automatically generated
 
 ### D
 
