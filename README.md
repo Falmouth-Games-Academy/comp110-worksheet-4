@@ -121,29 +121,18 @@ They are equal
 They are not the same
 
 ### d
-A AND NOT (B OR NOT C) AND (NOT A AND D)
+(A OR B) AND (A OR C) = A OR (B AND C)
 
-|A |B |C |D | (B or not C) | (not A and D) |
-|---|---|---|---|---|---|
-|T |T |T |T | True | False|
-|T |T |T |F | True | False|
-|T |T |F |F | True | False|
-|T |F |F |F | True | False|
-|T |T |F |T | True | False|
-|T |F |T |F | False| False|
-|T |F |T |T | False| False|
-|T |F |F |T | True | False|
-|F |F |F |F | True | False|
-|F |T |T |F | True | False|
-|F |T |F |F | True | False|
-|F |T |T |T | True | True |
-|F |T |F |T | True | True |
-|F |F |T |F | False| False|
-|F |F |T |T | False| True |
-|F |F |F |T | True | True |
-
-
-
+|A |B |C | (A or B) | (A or C) |(A or B) and (A or C) | (B and C)| A or (B and C)|
+|---|---|---|---|---|---|---|
+|T |T |T | True | True |True |True |True |
+|T |T |F | True | True |True |False|True |
+|T |F |F | True | False|False|False|True |
+|T |F |T | True | True |True |False|True |
+|F |F |F | False| False|False|False|False|
+|F |T |F | True | False|False|False|False|
+|F |F |T | False| True |False|False|False|
+|F |T |T | True | True |True |True |False|
 
 
 ## Question 4
