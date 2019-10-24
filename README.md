@@ -172,9 +172,18 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
+NOT (A OR B) = NOT A AND NOT B
+
 ### b
+
+(A AND B) OR (A AND C) = A AND (B OR C)
 
 ### c
 
+NOT (A AND B) = NOT A OR NOT B
+
 ### d
+
+(A OR B) AND (A OR C) = A OR (B AND C)
+
 
