@@ -33,6 +33,18 @@ A AND NOT (B AND NOT C)
 | F	| F	| T	| False	|False|True|
 
 ### c
+(A or not B) and (A or C)
+
+|A |B |C |(A or not B)| (A or C)| (A or not B) and (A or C)|
+|---|---|---|---|---|---|
+|T |T |T | 	True	  |	True	| True |
+|T |T |F | 	True 	  | True	| True |
+|T |F |F | 	True 	  |	True	| True |
+|T |F |T | 	True 	  | True	| True |
+|F |T |T | 	False	  |	True	| False|
+|F |T |F | 	False	  | False	| False|
+|F |F |T | 	True 	  | True	| True |
+|F |F |F | 	True 	  |	False	| False|
 
 ### d
 
