@@ -40,7 +40,7 @@ Please edit this README.md file with your answers to the worksheet questions.
 | 0 | 1 | 0 | 0            |
 | 0 | 1 | 1 | 0            |
 | 1 | 0 | 0 | 1            |
-| 1 | 0 | T | 1            |
+| 1 | 0 | 1 | 1            |
 | 1 | 1 | 0 | 1            |
 | 1 | 1 | 1 | 1            |
 
@@ -55,6 +55,14 @@ Please edit this README.md file with your answers to the worksheet questions.
 | 0 | 1 | 0 | 1 | 0                |
 | 0 | 1 | 1 | 0 | 0                |
 | 0 | 1 | 1 | 1 | 0                |
+| 1 | 0 | 0 | 0 | 0                |
+| 1 | 0 | 0 | 1 | 0                |
+| 1 | 0 | 1 | 0 | 0                |
+| 1 | 0 | 1 | 1 | 0                |
+| 1 | 1 | 0 | 0 | 0                |
+| 1 | 1 | 0 | 1 | 0                |
+| 1 | 1 | 1 | 0 | 0                |
+| 1 | 1 | 1 | 1 | 0                |
 
 ## Question 2
 
