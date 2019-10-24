@@ -73,11 +73,11 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 ### a
 ![Answer A picture](LogicCircuitA.PNG)
 ### b
-
+![Answer B picture](LogicCircuitB.PNG)
 ### c
-
+![Answer C picture](LogicCircuitC.PNG)
 ### d
-
+![Answer D picture](LogicCircuitD.PNG)
 ## Question 3
 
 ### a
