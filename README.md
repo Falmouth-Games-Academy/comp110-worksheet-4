@@ -36,7 +36,13 @@ A AND NOT (B AND NOT C)
 
 |A|B|C|RESULT|
 |:---:|:---:|:---:|:----:|
-|||||
+|true|true|true|true|
+|true|true|false|true|
+|true|false|false|true|
+|true|false|true|true|
+|false|true|true|false|
+|false|false|true|true|
+|false|false|false|false|
 
 ### d
 
