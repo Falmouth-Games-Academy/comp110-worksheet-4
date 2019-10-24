@@ -134,14 +134,29 @@ They are not the same
 |F |F |T | False| True |False|False|False|
 |F |T |T | True | True |True |True |False|
 
+They are not equal to each other
 
 ## Question 4
 
 ### a
+(not A and B) = NOT A OR NOT B 
+
+These are not equal to each, if A and B are both False the first will be True but the second will be False
 
 ### b
+(A AND B) or (C AND B) = (A OR C) and B
 
 ### c
+X == 0 --> A
+y == 0 --> B
+x != 0 --> C
+y != 0 --> D
+
+A and B = C or D
 
 ### d
+X > 10 --> A
+X > 0 --> B
+Y > 0 --> C
 
+A or (B and C) = B and (A or C)
