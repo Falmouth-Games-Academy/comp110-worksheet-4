@@ -51,14 +51,22 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 
 |A |B |C |D | (B or not C) | (not A and D) | A and not (B or not C) and (not A and D) |
 |---|---|---|---|---|---|---|
-|T |T |T |T |
-|T |T |T |F |
-|T |T |F |F |
-|T |F |F |F |
-|T |F |F |T | 
-|T |F |T |T |  
-|T |T |F |T |
-|T |T |F |F |
+|T |T |T |T | True | False | False |
+|T |T |T |F | True | False | False |
+|T |T |F |F | True | False | False |
+|T |F |F |F | True | False | False | 
+|T |F |F |T | True | False | False |
+|T |F |T |T | True | False | False |
+|T |T |F |T | True | False | False |
+|T |T |F |F | True | False | False |
+|F |F |F |F | True | False | False |
+|F |T |T |T | True | True  | False |
+|F |T |T |F | True | False | False |
+|F |T |F |F | True | False | False |
+|F |F |F |T | True | True  | False |
+|F |F |T |T | False| True  | False |
+|F |F |T |F | False| False | False |
+|F |T |F |T | True | True  | False |
 
 ## Question 2
 
