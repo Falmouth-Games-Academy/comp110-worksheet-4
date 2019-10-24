@@ -200,7 +200,9 @@ so NOT(A AND B) = NOT A OR NOT B as seen in question 3b
 
 This pair of programs is not equivalent  
 
-1.
+1.  
+if x > 10 or (x > 0 and y > 0) maps to A OR (B AND C)  
+
 |ABC|B&C|A+(B&C)|
 |---|---|---|
 |000| 0 | 0 |
@@ -212,7 +214,9 @@ This pair of programs is not equivalent
 |110| 0 | 1 |
 |111| 1 | 1 |
 
-2.
+2.  
+if x > 0 and (x > 10 or y > 0) maps to B&(A OR C)  
+
 |ABC|A+C|B&(A+C)|
 |---|---|---|
 |000| 0 | 0 |
