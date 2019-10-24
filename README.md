@@ -32,8 +32,17 @@ A AND NOT (B AND NOT C)
 |false|false|false|false|
 
 ### c
+(A OR NOT B) AND (A OR C)
+
+|A|B|C|RESULT|
+|:---:|:---:|:---:|:----:|
+|||||
 
 ### d
+
+|A|B|C|RESULT|
+|:---:|:---:|:---:|:----:|
+|||||
 
 ## Question 2
 
@@ -49,11 +58,27 @@ A AND NOT (B AND NOT C)
 
 ### a
 
+|A|B|C|RESULT|
+|:---:|:---:|:---:|:----:|
+|||||
+
 ### b
+
+|A|B|C|RESULT|
+|:---:|:---:|:---:|:----:|
+|||||
 
 ### c
 
+|A|B|C|RESULT|
+|:---:|:---:|:---:|:----:|
+|||||
+
 ### d
+
+|A|B|C|RESULT|
+|:---:|:---:|:---:|:----:|
+|||||
 
 ## Question 4
 
