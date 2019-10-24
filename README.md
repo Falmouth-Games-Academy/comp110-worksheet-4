@@ -65,8 +65,10 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
+![](https://raw.githubusercontent.com/JD233113/comp110-worksheet-4/master/logic1.PNG)
 
 ### b
+
 
 ### c
 
