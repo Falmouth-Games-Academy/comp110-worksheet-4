@@ -5,9 +5,8 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 1
 
 ### a
-A AND B AND NOT C
 
-|A|B|C|RESULT|
+|A|B|C|A AND B AND NOT C|
 |:---:|:---:|:---:|:---:|
 |true|true|true|false|
 |true|true|false|true|
@@ -19,9 +18,8 @@ A AND B AND NOT C
 
 
 ### b
-A AND NOT (B AND NOT C)
 
-|A|B|C|RESULT|
+|A|B|C|A AND NOT (B AND NOT C)|
 |:---:|:---:|:---:|:---:|
 |true|true|true|true|
 |true|true|false|false|
@@ -32,9 +30,8 @@ A AND NOT (B AND NOT C)
 |false|false|false|false|
 
 ### c
-(A OR NOT B) AND (A OR C)
 
-|A|B|C|RESULT|
+|A|B|C|(A OR NOT B) AND (A OR C)|
 |:---:|:---:|:---:|:----:|
 |true|true|true|true|
 |true|true|false|true|
@@ -46,9 +43,9 @@ A AND NOT (B AND NOT C)
 
 ### d
 
-|A|B|C|RESULT|
-|:---:|:---:|:---:|:----:|
-|||||
+|A|B|C|D|A AND NOT (B OR NOT C) AND (NOT A AND D)|
+|:---:|:---:|:---:|:---:|:---:|
+||||||
 
 ## Question 2
 
