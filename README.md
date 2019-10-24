@@ -45,7 +45,22 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 |A|B|C|D|A AND NOT (B OR NOT C) AND (NOT A AND D)|
 |:---:|:---:|:---:|:---:|:---:|
-||||||
+|true|true|true|true|
+|true|true|true|false|
+|true|true|false|true|
+|true|true|false|false|
+|true|false|true|true|
+|true|false|true|false|
+|true|false|false|true|
+|true|false|false|false|
+|false|true|true|true|
+|false|true|true|false|
+|false|true|false|true|
+|false|true|false|false|
+|false|false|true|true|
+|false|false|true|false|
+|false|false|false|true|
+|false|false|false|false|
 
 ## Question 2
 
