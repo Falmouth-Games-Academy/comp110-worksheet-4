@@ -134,9 +134,11 @@
 
 ### A
 
-It is the same as Question 3B.\
+It is the same as Question 3B.\\
 The line of code `if not(file_exists("a.txt") and file_exists("b.txt"))`\
-Is the same as `NOT ( A AND B)`
+Is the same as `NOT ( A AND B)`\\
+And the line of code `if not file_exists("a.txt") or not file_exists("b.txt")`\
+Is the same as `NOT A OR NOT B`
 
 ### B
 
