@@ -142,27 +142,27 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### b
 
-| type(X) = INT | X > 7   |(x = int AND x > 7) OR ( x = float AND x > 7)|(x = int or x = float ) and x > 7|
-|:-------------:|:-------:|:-------------------------------------------:|:-------------------------------:|
-|TRUE           |FALSE    |FALSE                                        |FALSE                            |
-|TRUE           |TRUE     |TRUE                                         |TRUE                             |
-|FALSE          |FALSE    |FALSE                                        |FALSE                            |
-|FASLE          |TRUE     |TRUE                                         |TRUE                             |
+| type(*X*) = INT | *X* > 7   |(*X* = int AND *X* > 7) OR ( *X* = float AND *X* > 7)|(*X* = int or *X* = float ) and *X* > 7|
+|:---------------:|:---------:|:---------------------------------------------------:|:-------------------------------------:|
+|TRUE             |FALSE      |FALSE                                                |FALSE                                  |
+|TRUE             |TRUE       |TRUE                                                 |TRUE                                   |
+|FALSE            |FALSE      |FALSE                                                |FALSE                                  |
+|FASLE            |TRUE       |TRUE                                                 |TRUE                                   |
 
 ### c
 
-|x = 0|y = 0|x = 0 AND y = 0    |NOT (NOT x OR NOT y)|
-|:---:|:---:|:-----------------:|:------------------:|
-|FALSE|FALSE|FALSE              |FALSE               |
-|FALSE|TRUE |FALSE              |FALSE               |
-|TRUE |FALSE|FALSE              |FALSE               |
-|TRUE |TRUE |TRUE               |TRUE                |
+|*X* = 0|*Y* = 0|*X* = 0 AND *Y* = 0|NOT (NOT *X* OR NOT *Y*)|
+|:-----:|:-----:|:-----------------:|:----------------------:|
+|FALSE  |FALSE  |FALSE              |FALSE                   |
+|FALSE  |TRUE   |FALSE              |FALSE                   |
+|TRUE   |FALSE  |FALSE              |FALSE                   |
+|TRUE   |TRUE   |TRUE               |TRUE                    |
 
 ### d
 
-|x > 10|y > 0 |x > 10 OR (x > 0 AND y > 0)|x > 0 AND (x > 10 OR y > 0)|
-|:----:|:----:|:-------------------------:|:-------------------------:|
-|FALSE |FALSE |FALSE                      |FALSE                      |
-|FALSE |TRUE  |TRUE                       |TRUE                       |
-|TRUE  |FALSE |TRUE                       |TRUE                       |
-|TRUE  |TRUE  |TRUE                       |TRUE                       |
+|*X* > 10|*Y* > 0 |*X* > 10 OR (*X* > 0 AND *Y* > 0)|*X* > 0 AND (*X* > 10 OR *Y* > 0)|
+|:------:|:------:|:-------------------------------:|:-------------------------------:|
+|FALSE   |FALSE   |FALSE                            |FALSE                            |
+|FALSE   |TRUE    |TRUE                             |TRUE                             |
+|TRUE    |FALSE   |TRUE                             |TRUE                             |
+|TRUE    |TRUE    |TRUE                             |TRUE                             |
