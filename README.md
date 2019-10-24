@@ -44,22 +44,23 @@
 ### d
 
 |A    |B    |C    |D    |NOT(B OR NOT C)|NOT A AND D| A AND NOT (B OR NOT C) AND (NOT A AND D)|
+|-----|-----|-----|-----|---------------|-----------|-----------------------------------------|
 |FALSE|FALSE|FALSE|FALSE|FALSE          |FALSE      |FALSE                                    |
-|FALSE|FALSE|FALSE|TRUE |
-|FALSE|FALSE|TRUE |FALSE|
-|FALSE|FALSE|TRUE |TRUE |
-|FALSE|FALSE|TRUE |TRUE |
-|FALSE|TRUE |FALSE|TRUE |
-|FALSE|TRUE |TRUE |FALSE|
-|FALSE|TRUE |TRUE |TRUE |
-|TRUE |FALSE|FALSE|FALSE|
-|TRUE |FALSE|FALSE|TRUE |
-|TRUE |FALSE|TRUE |FALSE|
-|TRUE |FALSE|TRUE |TRUE |
-|TRUE |TRUE |FALSE|FALSE|
-|TRUE |TRUE |FALSE|TRUE |
-|TRUE |TRUE |TRUE |FALSE|
-|TRUE |TRUE |TRUE |TRUE |
+|FALSE|FALSE|FALSE|TRUE |FALSE          |TRUE       |FALSE                                    |
+|FALSE|FALSE|TRUE |FALSE|TRUE           |FALSE      |FALSE                                    |
+|FALSE|FALSE|TRUE |TRUE |TRUE           |TRUE       |FALSE                                    |
+|FALSE|FALSE|TRUE |TRUE |TRUE           |TRUE       |FALSE                                    |
+|FALSE|TRUE |FALSE|TRUE |FALSE          |TRUE       |FALSE                                    |
+|FALSE|TRUE |TRUE |FALSE|FALSE          |FALSE      |FALSE                                    |
+|FALSE|TRUE |TRUE |TRUE |FALSE          |TRUE       |FALSE                                    |
+|TRUE |FALSE|FALSE|FALSE|FALSE          |FALSE      |FALSE                                    |
+|TRUE |FALSE|FALSE|TRUE |FALSE          |FALSE      |FALSE                                    |
+|TRUE |FALSE|TRUE |FALSE|TRUE           |FASLE      |FALSE                                    |
+|TRUE |FALSE|TRUE |TRUE |TRUE           |FALSE      |FALSE                                    |
+|TRUE |TRUE |FALSE|FALSE|FALSE          |FALSE      |FALSE                                    |
+|TRUE |TRUE |FALSE|TRUE |FALSE          |FALSE      |FALSE                                    |
+|TRUE |TRUE |TRUE |FALSE|FALSE          |FALSE      |FALSE                                    |
+|TRUE |TRUE |TRUE |TRUE |FALSE          |FALSE      |FALSE                                    |
 
 ## Question 2
 
