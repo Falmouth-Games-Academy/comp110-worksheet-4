@@ -6,6 +6,9 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
+|header|aaaa|
+|:---:|:---:|
+
 ### b
 
 ### c
