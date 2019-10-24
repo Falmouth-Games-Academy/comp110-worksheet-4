@@ -176,9 +176,9 @@ Same output therefore equal.
 
 ### a
 
-file_exists("a.txt") maps to A, file_exists("b.txt") maps to B
-4a)1. maps to NOT(A AND B)
-   2. maps to NOT A OR NOT B
+file_exists("a.txt") maps to A, file_exists("b.txt") maps to B  
+4a)1. maps to NOT(A AND B)  
+   2. maps to NOT A OR NOT B  
   NOT(A AND B) = NOT A OR NOT B as shown in question 3b therefore the identity holds.
   
 ### b
