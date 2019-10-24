@@ -148,10 +148,41 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 4
 
 ### a
-Uses the identities shown in Question 3b
+|file_exists("a.txt")|file_exists("b.txt")|First Program|Second Program|
+|--------------------|--------------------|-------------|--------------|
+|FALSE               |FALSE               |TRUE         |TRUE          |
+|FALSE               |TRUE                |TRUE         |TRUE          |
+|TRUE                |FALSE               |TRUE         |TRUE          |
+|TRUE                |TRUE                |FALSE        |FALSE         |
+
 ### b
-Uses the identities shown in Question 3c
+|x > 7|type ( x) == int|type (x) == float|First Program|Second Program|
+|-----|----------------|-----------------|-------------|--------------|
+|FALSE|FALSE           |FALSE            |FALSE        |FALSE         |
+|FALSE|FALSE           |TRUE             |FALSE        |FALSE         |
+|FALSE|TRUE            |FALSE            |FALSE        |FALSE         |
+|FALSE|TRUE            |TRUE             |TRUE         |TRUE          |
+|TRUE |FALSE           |FALSE            |FALSE        |FALSE         |
+|TRUE |FALSE           |TRUE             |FALSE        |FALSE         |
+|TRUE |TRUE            |FALSE            |TRUE         |TRUE          |
+|TRUE |TRUE            |TRUE             |TRUE         |TRUE          |
+
 ### c
+|Y==0 |X==0 |First Program|Second Program|
+|-----|-----|-------------|--------------|
+|FALSE|FALSE|FALSE        |TRUE          |
+|FALSE|TRUE |FALSE        |TRUE          |
+|TRUE |FALSE|FALSE        |TRUE          |
+|TRUE |TRUE |TRUE         |FALSE         |
 
 ### d
-
+|x > 0|X > 10|y > 0|First Program|Second Program|
+|-----|------|-----|-------------|--------------|
+|FALSE|FALSE |FALSE|FALSE        |FALSE         |
+|FALSE|FALSE |TRUE |FALSE        |FALSE         |
+|FALSE|TRUE  |FALSE|TRUE         |TRUE          |
+|FALSE|TRUE  |TRUE |TRUE         |TRUE          |
+|TRUE |FALSE |FALSE|FALSE        |FALSE         |
+|TRUE |FALSE |TRUE |TRUE         |FALSE         |
+|TRUE |TRUE  |FALSE|TRUE         |TRUE          |
+|TRUE |TRUE  |TRUE |TRUE         |TRUE          |
