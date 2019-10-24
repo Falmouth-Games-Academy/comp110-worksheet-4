@@ -5,7 +5,7 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 1
 
 ### a
-
+####A AND B AND NOT C
 |A|B|C|RESULT|
 |:---:|:---:|:---:|:---:|
 |true|true|true|false|
