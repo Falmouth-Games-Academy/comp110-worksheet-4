@@ -131,9 +131,30 @@
 
 ### a
 
+|file_exists("a.txt")|file_exists("b.txt")|First Condition|Second Condition|Question 3 B|
+|--------------------|--------------------|---------------|----------------|------------|
+|FALSE               |FALSE               |TRUE           |TRUE            |TRUE        |
+|FALSE               |TRUE                |TRUE           |TRUE            |FALSE       |
+|TRUE                |FALSE               |TRUE           |TRUE            |FALSE       |
+|TRUE                |TRUE                |FALSE          |FALSE           |FALSE       |
+
 ### b
 
+|type(x) == int|type(x) == float|x > 0|First Condition|Second Condition|QUESTION 3 C|
+|--------------|----------------|-----|---------------|----------------|------------|
+|FALSE         |FALSE           |FALSE|FALSE          |FALSE           |FALSE       |
+|FALSE         |FALSE           |TRUE |FALSE          |FALSE           |FALSE       |
+|FALSE         |TRUE            |FALSE|FALSE          |FALSE           |FALSE       |
+|FALSE         |TRUE            |TRUE |FALSE          |FALSE           |FALSE       |
+|TRUE          |FALSE           |FALSE|FALSE          |FALSE           |FALSE       |
+|TRUE          |FALSE           |TRUE |TRUE           |TRUE            |TRUE        |
+|TRUE          |TRUE            |FALSE|TRUE           |TRUE            |TRUE        |
+|TRUE          |TRUE            |TRUE |TRUE           |TRUE            |TRUE        |
+
+
+
 ### c
+
 
 ### d
 
