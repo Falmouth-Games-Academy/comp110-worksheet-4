@@ -60,13 +60,13 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
-![image](./A and B and Not C.PNG)
+![image1](./A and B and Not C.PNG)
 ### b
-![image](./A and Not(B and Not C).PNG)
+![image2](./A and Not(B and Not C).PNG)
 ### c
-![image](./(A or Not B) and (A or C).PNG)
+![image3](./(A or Not B) and (A or C).PNG)
 ### d
-![image](./A and Not (B or Not C) and(Not A and D).PNG)
+![image4](./A and Not (B or Not C) and(Not A and D).PNG)
 ## Question 3
 
 ### a
