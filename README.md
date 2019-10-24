@@ -115,6 +115,18 @@
 
 ### d
 
+
+|A    |B    |C    |(A OR B) AND (A OR C)|A OR (B AND C)|
+|-----|-----|-----|---------------------|--------------|
+|FALSE|FALSE|FALSE|FALSE                |FALSE         |
+|FALSE|FALSE|TRUE |FALSE                |FALSE         |
+|FALSE|TRUE |FALSE|FALSE                |FALSE         |
+|FALSE|TRUE |TRUE |TRUE                 |TRUE          |
+|TRUE |FALSE|FALSE|TRUE                 |TRUE          |
+|TRUE |FALSE|TRUE |TRUE                 |TRUE          |
+|TRUE |TRUE |FALSE|TRUE                 |TRUE          |
+|TRUE |TRUE |TRUE |TRUE                 |TRUE          |
+
 ## Question 4
 
 ### a
