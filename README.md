@@ -71,7 +71,7 @@ A AND NOT (B OR NOT C) AND (NOT A AND D)
 ## Question 2
 
 ### a
-	![Answer A picture](LogicCircuitA.png)
+![Answer A picture](LogicCircuitA.png)
 ### b
 
 ### c
