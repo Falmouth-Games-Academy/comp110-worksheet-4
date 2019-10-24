@@ -7,6 +7,7 @@ Please edit this README.md file with your answers to the worksheet questions.
 ### a 
 	A and B and not C
 	| A | B | C | A and B and not c
+	|---|---|---|---|
 	| T	| T	| T	|	False
 	| T	| T	| F	|	True
 	| T	| F	| T	|	False
@@ -19,6 +20,7 @@ Please edit this README.md file with your answers to the worksheet questions.
 ### b
 	A AND NOT (B AND NOT C)
 	| A | B | C | not C |  (B and not c)|
+	|---|---|---|---|---|
 	| T	| T	| T	| False	|	False		|
 	| T	| T	| F	| True	|	True		|
 	| T	| F	| T	| False	|	False		|
