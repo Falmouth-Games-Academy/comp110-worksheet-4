@@ -4,11 +4,18 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ## Question 1
 
-### a (A AND B AND NOT C)
+### a
 
-|A|B|C|
-|:---:|:---:|:---:|
-|true|true|false|
+|A|B|C|RESULT|
+|:---:|:---:|:---:|:---:|
+|true|true|true|false|
+|true|true|false|true|
+|true|false|true|false|
+|true|false|false|false|
+|false|true|true|false|
+|false|false|true|false|
+|false|false|false|false|
+
 
 ### b
 
