@@ -19,9 +19,15 @@ Question 1 and Question 2
 | 0 | 1 | 1 | 0      |
 | 1 | 1 | 1 | 0      |
 
-### [./media/image1.png](./media/image1.png)
+### [./media/image1.jpeg](./media/image1.jpeg)
 
-### <br><br><br><br><br><br>
+  
+  
+  
+  
+  
+  
+
 
 ### B
 
@@ -51,7 +57,7 @@ Question 1 and Question 2
 | 0 | 1 | 1 | 0      |
 | 1 | 1 | 1 | 1      |
 
-### [./media/image3.png](./media/image3.png)
+### [./media/image3.jpeg](./media/image3.jpeg)
 
 ### D
 
