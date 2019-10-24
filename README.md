@@ -182,10 +182,10 @@ Please edit this README.md file with your answers to the worksheet questions.
 ### c
 |X == 0 |Y == 0|first program|second program|
 |-------|------|-------------|--------------|
-|true   |true  |false        |false         |
+|true   |true  |true         |true          |
 |true   |false |false        |false         |
 |false  |true  |false        |false         |
-|false  |false |true         |true          |
+|false  |false |false        |false         |
 ### d
 |X > 10 |Y > 0 |first program|second program|
 |-------|------|-------------|--------------|
