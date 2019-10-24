@@ -141,6 +141,7 @@ Is the same as `NOT (A AND B)`\
 \
 And the line of code `if not file_exists("a.txt") or not file_exists("b.txt")`\
 Is the same as `NOT A OR NOT B`\
+
 `NOT (A AND B)` is equal to `NOT A OR NOT B`
 
 ### B
