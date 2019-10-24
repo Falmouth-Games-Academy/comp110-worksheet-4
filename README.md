@@ -63,16 +63,16 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
-![](Logic_Circuit_A.png)
+![A](https://github.com/Tosh-Jompson/comp110-worksheet-4/blob/master/Logic%20Circuit%20A.PNG)
 
 ### b
-![](Logic_Circuit_B.png)
+![B](https://github.com/Tosh-Jompson/comp110-worksheet-4/blob/master/Logic%20Circuit%20B.PNG)
 
 ### c
-![](Logic_Circuit_C.png)
+![C](https://github.com/Tosh-Jompson/comp110-worksheet-4/blob/master/Logic%20Circuit%20C.PNG)
 
 ### d
-![](Logic_Circuit_D.png)
+![D](https://github.com/Tosh-Jompson/comp110-worksheet-4/blob/master/Logic%20Circuit%20D.PNG)
 
 ## Question 3
 
