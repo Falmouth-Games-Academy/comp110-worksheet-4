@@ -25,6 +25,8 @@ A picture containing wall, indoor Description automatically generated
 
 A picture containing wall, indoor Description automatically generated
 
+A picture containing wall, indoor Description automatically generated
+
 ### B
 
 | A | B | C | Output |
@@ -54,6 +56,8 @@ A picture containing wall, indoor Description automatically generated
 | 1 | 1 | 1 | 1      |
 
 ![A close up of a device Description automatically generated](media/d705e1a7c2583d448478092c3c4c695e.jpg)
+
+A close up of a device Description automatically generated
 
 A close up of a device Description automatically generated
 
@@ -156,22 +160,76 @@ Question 3
 Question 4
 ----------
 
-### A) not A and b = not a or not b
+### A) not A or b = not a and not b
 
 | A  | B  | Output   |
 |----|----|----------|
 | 0  | 0  | 1        |
-| 1  | 0  | 1        |
+| 1  | 0  | 0        |
+| 0  | 1  | 1        |
+| 1  | 1  | 1        |
+| A2 | B2 | Output 2 |
+| 0  | 0  | 1        |
+| 1  | 0  | 0        |
+| 0  | 1  | 0        |
+| 1  | 1  | 0        |
+
+### These are the same as question 3A because in the code it writes if not which refers to a not gate and in the code, there is an and gate as well and print command is counted as the output the only difference is the brackets are missing on these ones
+
+### B) NOT A AND B = NOT A OR NOT B
+
+| A  | B  | Output   |
+|----|----|----------|
+| 0  | 0  | 0        |
+| 1  | 0  | 0        |
 | 0  | 1  | 1        |
 | 1  | 1  | 0        |
 | A2 | B2 | Output 2 |
-| 0  | 0  | 1        |
+| 0  | 0  | 0        |
 | 1  | 0  | 1        |
 | 0  | 1  | 1        |
 | 1  | 1  | 0        |
 
-### b
+### C) A AND B OR A AND C = A AND B OR C
 
-### c
+| A  | B  | C  | Output  |
+|----|----|----|---------|
+| 0  | 0  | 0  | 0       |
+| 1  | 0  | 0  | 0       |
+| 0  | 1  | 0  | 0       |
+| 0  | 0  | 1  | 0       |
+| 1  | 1  | 0  | 1       |
+| 1  | 0  | 1  | 1       |
+| 0  | 1  | 1  | 0       |
+| 1  | 1  | 1  | 1       |
+| A2 | B2 | C2 | Output2 |
+| 0  | 0  | 0  | 0       |
+| 1  | 0  | 0  | 0       |
+| 0  | 1  | 0  | 0       |
+| 0  | 0  | 1  | 1       |
+| 1  | 1  | 0  | 1       |
+| 1  | 0  | 1  | 1       |
+| 0  | 1  | 1  | 1       |
+| 1  | 1  | 1  | 1       |
 
-### d
+### D) A OR B AND A OR C = A OR B AND C
+
+| A  | B  | C  | Output  |
+|----|----|----|---------|
+| 0  | 0  | 0  | 0       |
+| 1  | 0  | 0  | 1       |
+| 0  | 1  | 0  | 0       |
+| 0  | 0  | 1  | 0       |
+| 1  | 1  | 0  | 1       |
+| 1  | 0  | 1  | 1       |
+| 0  | 1  | 1  | 1       |
+| 1  | 1  | 1  | 1       |
+| A2 | B2 | C2 | Output2 |
+| 0  | 0  | 0  | 0       |
+| 1  | 0  | 0  | 0       |
+| 0  | 1  | 0  | 0       |
+| 0  | 0  | 1  | 0       |
+| 1  | 1  | 0  | 0       |
+| 1  | 0  | 1  | 1       |
+| 0  | 1  | 1  | 1       |
+| 1  | 1  | 1  | 1       |
