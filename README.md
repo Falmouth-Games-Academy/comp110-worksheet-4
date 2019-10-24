@@ -63,7 +63,7 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
-
+![Alt text](/E-Peters-2205/comp110-worksheet-4/blob/master/2A.PNG?raw=true)
 
 ### b
 
