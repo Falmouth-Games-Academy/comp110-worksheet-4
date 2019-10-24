@@ -79,28 +79,41 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 3
 
 ### a
+NOT (A OR B) = NOT A AND NOT B 
 
-|A|B|C|RESULT|
-|:---:|:---:|:---:|:----:|
-|||||
+|A|B|RESULT|
+|:---:|:---:|:---:|
+|true|true|false|
+|true|false|false|
+|false|true|false|
+|false|false|true|
 
 ### b
+NOT (A AND B) = NOT A OR NOT B 
 
-|A|B|C|RESULT|
-|:---:|:---:|:---:|:----:|
-|||||
+|A|B|RESULT|
+|:---:|:---:|:---:|
+|true|true|false|
+|true|false|true|
+|false|true|true|
+|false|false|true|
 
 ### c
+(A AND B) OR (A AND C) = A AND (B OR C)
 
 |A|B|C|RESULT|
-|:---:|:---:|:---:|:----:|
-|||||
+|:---:|:---:|:---:|:---:|
+|true|true|true||
+|true|true|false||
+|true|false|true||
+|true|false|false||
+|false|true|true||
+|false|true|false||
+|false|false|true||
+|false|false|false||
 
 ### d
 
-|A|B|C|RESULT|
-|:---:|:---:|:---:|:----:|
-|||||
 
 ## Question 4
 
