@@ -129,8 +129,30 @@ NOT (A AND B) = NOT A OR NOT B
 ## Question 4
 
 ### a
+|A|B|NOT (A OR B)|
+|:---:|:---:|:---:|
+|true|true|false|
+|true|false|false|
+|false|true|false|
+|false|false|true|
+
+|A|B|NOT A AND NOT B |
+|:---:|:---:|:---:|
+|true|true|false|
+|true|false|false|
+|false|true|false|
+|false|false|true|
+
+NOT (A OR B) = NOT A AND NOT B 
+
+Therefore:
+if not(file_exists("a.txt") and file_exists("b.txt")): print("A required file is missing")
+=
+if not file_exists("a.txt") or not file_exists("b.txt"): print("A required file is missing")
+
 
 ### b
+
 
 ### c
 
