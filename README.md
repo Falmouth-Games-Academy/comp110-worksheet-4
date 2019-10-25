@@ -87,11 +87,47 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
+| A	| B	| NOT (A OR B)	| NOT A AND NOT B | 
+|---|---|---|---|
+| TRUE	| TRUE	| FALSE		| FALSE | 
+| TRUE	| FALSE	| FALSE		| FALSE | 
+| FALSE	| TRUE	| FALSE		| FALSE | 
+| FALSE |	FALSE	| TRUE		| TRUE | 
+
 ### b
+
+| A	| B	| NOT (A AND B)	| NOT A OR NOT B | 
+|---|---|---|---|
+| TRUE	| TRUE	| FALSE		| FALSE | 
+| TRUE	| FALSE	| TRUE		| TRUE | 
+| FALSE	| TRUE	| TRUE		| TRUE | 
+| FALSE	| FALSE	| TRUE		| TRUE | 
 
 ### c
 
+| A	| B	| C	| (A AND B) OR (A AND C)	| A AND (B OR C) | 
+|---|---|---|---|---|
+| TRUE	| TRUE	| TRUE	| TRUE			| TRUE | 
+| TRUE	| TRUE	| FALSE	| TRUE			| TRUE |
+| TRUE	| FALSE	| TRUE	| TRUE			| TRUE |
+| TRUE	| FALSE	| FALSE	| FALSE			| FALSE |
+| FALSE	| TRUE	| TRUE	| FALSE			| FALSE |
+| FALSE	| TRUE	| FALSE	| FALSE			| FALSE |
+| FALSE	| FALSE	| TRUE	| FALSE			| FALSE |
+| FALSE	| FALSE	| FALSE	| FALSE			| FALSE |
+
 ### d
+
+| A	| B	| C	| (A OR B) AND (A OR C)	| A OR (B AND C) |
+|---|---|---|---|---|
+| TRUE	| TRUE	| TRUE	| TRUE			| TRUE |
+| TRUE	| TRUE	| FALSE	| TRUE			| TRUE |
+| TRUE	| FALSE	| TRUE	| TRUE			| TRUE |
+| TRUE	| FALSE	| FALSE	| TRUE			| TRUE |
+| FALSE	| TRUE	| TRUE	| TRUE			| TRUE |
+| FALSE	| TRUE	| FALSE	| FALSE			| FALSE |
+| FALSE	| FALSE	| TRUE	| FALSE			| FALSE |
+| FALSE	| FALSE	| FALSE	| FALSE			| FALSE |
 
 ## Question 4
 
