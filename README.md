@@ -69,11 +69,19 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
+![](https://github.com/EugeneFalmouth/comp110-worksheet-4/blob/master/Worksheet4_2a.png "Question 2a")
+
 ### b
+
+![](https://github.com/EugeneFalmouth/comp110-worksheet-4/blob/master/Worksheet4_2b.png "Question 2b")
 
 ### c
 
+![](https://github.com/EugeneFalmouth/comp110-worksheet-4/blob/master/Worksheet4_2c.png "Question 2c")
+
 ### d
+
+![](https://github.com/EugeneFalmouth/comp110-worksheet-4/blob/master/Worksheet4_2d.png "Question 2d")
 
 ## Question 3
 
