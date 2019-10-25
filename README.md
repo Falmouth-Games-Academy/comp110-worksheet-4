@@ -67,12 +67,13 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
-
+![2A](https://raw.githubusercontent.com/TrainerIsaac/comp110-worksheet-4/master/2A.jpg)
 ### b
-
+![2B](https://raw.githubusercontent.com/TrainerIsaac/comp110-worksheet-4/master/2B.jpg)
 ### c
-
+![2C](https://raw.githubusercontent.com/TrainerIsaac/comp110-worksheet-4/master/2C.jpg)
 ### d
+![2D](https://raw.githubusercontent.com/TrainerIsaac/comp110-worksheet-4/master/2D.jpg)
 
 ## Question 3
 
