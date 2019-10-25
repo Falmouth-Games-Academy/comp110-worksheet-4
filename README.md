@@ -118,4 +118,4 @@ This problem matches the truth table for 3c. This has one imperative statement, 
 This problem doesn’t directly respond to any of the truth tables from question 3, as the outputs have been reversed, changing a part of the equation not relevant to the truth tables. As a result, the truth tables are exact opposites of each other which baring in mind the earlier reversal proves that they produce the same output. This can be explained by 3b If you read it as Not(if X == 0 and Y == 0):, print do nothing, else:, do something and if x != 0 or y != 0:, print("Do nothing"), else:, do something. This removes the difference in output so it can be implemented into the tables proving that they provide the same output relative to the same inputs.
 
 ### d
-
+This problem directly relates to truth table 3d, ultimately only ending up as true if x is bigger than 10 or if both x and y are bigger than 0.
