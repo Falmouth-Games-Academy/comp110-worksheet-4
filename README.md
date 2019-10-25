@@ -61,13 +61,8 @@ George Jenkins answers
 
 ## Question 2
 
-### a
+![](Worksheet_4_logic_gates.png)
 
-### b
-
-### c
-
-### d
 
 ## Question 3
 
