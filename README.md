@@ -63,16 +63,16 @@ True	|	True	|	True	|	True	|	False
 ## Question 2
 
 ### a
-![Chart for 2a](1A.png)
+![Chart for 2a](1A.PNG "2A")
 
 ### b
-![Chart for 2b](1B.png)
+![Chart for 2b](1B.PNG "2B")
 
 ### c
-![Chart for 2c](1C.png)
+![Chart for 2c](1C.PNG "2C")
 
 ### d
-![Chart for 2d](1D.png	)
+![Chart for 2d](1D.PNG "2D")
 
 ## Question 3
 
