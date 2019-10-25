@@ -133,9 +133,38 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ### a
 
+If we assume that 'file_exists ("a.txt ")' is equal to event A and 'file_exists ("b.txt ")' is equal to event B then both programs can be simplified to identity B in question 3
+
 ### b
+
+If we assume that 'x > 7' is equal to event A, 'type (x) == int' is equal to event B and 'type (x) == float' is equal to event C then both programs can be simplified to identity C in question 3
 
 ### c
 
+If we assume that 'x == 0' is equal to event A and 'y == 0' is equal to event B then we can make a truth table:
+
+| A	| B	| A AND B		| NOT A OR NOT B | 
+|---|---|---|---|
+| TRUE	| TRUE	| TRUE		| FALSE | 
+| TRUE	| FALSE	| FALSE		| TRUE | 
+| FALSE	| TRUE	| FALSE		| TRUE | 
+| FALSE	| FALSE	| FALSE		| TRUE | 
+
+Both if statements always have opposite results (TRUE or FALSE) but since the executed code within the if/else statement is swapped, both programs execute the same code with any inputs as long as they are the same for both programs.
+
 ### d
 
+If we assume that 'x > 10' is equal to event A, 'x > 0' is equal to event B and 'y > 0' is equal to event C then we can make a truth table:
+
+| A	| B	| C	| A OR (B AND C)		| B AND (A OR C) | 
+|---|---|---|---|---|
+| TRUE	| TRUE	| FALSE	| TRUE			| TRUE | 
+| TRUE	| TRUE	| TRUE	| TRUE			| TRUE | 
+| TRUE	| FALSE	| FALSE	| TRUE			| FALSE | 
+| TRUE	| FALSE	| TRUE	| TRUE			| FALSE | 
+| FALSE	| TRUE	| FALSE	| FALSE			| FALSE | 
+| FALSE	| TRUE	| TRUE	| TRUE			| TRUE | 
+| FALSE	| FALSE	| FALSE	| FALSE			| FALSE | 
+| FALSE	| FALSE	| TRUE	| FALSE			| FALSE | 
+
+The two if statements don't always have the same result, meaning that the two programs are actually not equivalent
