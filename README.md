@@ -4,7 +4,8 @@ Please edit this README.md file with your answers to the worksheet questions.
 
 ## Question 1
 
-### a 0000
+### a 
+      0000
       0010
       0100
       0110
@@ -13,7 +14,8 @@ Please edit this README.md file with your answers to the worksheet questions.
       1101
       1110
 
-### b 0000
+### b 
+      0000
       0010
       0100
       0110
@@ -22,7 +24,8 @@ Please edit this README.md file with your answers to the worksheet questions.
       1100
       1111
 
-### c 0000
+### c 
+      0000
       0011
       0100
       0110
@@ -31,7 +34,8 @@ Please edit this README.md file with your answers to the worksheet questions.
       1101
       1111
 
-### d 00010
+### d 
+      00010
       00100
       00110
       01000
