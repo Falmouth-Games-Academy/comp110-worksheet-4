@@ -117,8 +117,39 @@ Please edit this README.md file with your answers to the worksheet questions.
 Same as 3(b): NOT (A AND B) = NOT A OR NOT B
 
 ### b
+| type(x) == int | type(x) == float | x > 7 | FIRST | SECOND |
+|----------------|------------------|-------|-------|--------|
+| false          | false            | false | false | false  |
+| false          | false            | true  | false | false  |
+| false          | true             | false | false | false  |
+| false          | true             | true  | false | false  |
+| true           | false            | false | false | false  |
+| true           | false            | true  | true  | true   |
+| true           | true             | false | true  | true   |
+| true           | true             | true  | true  | true   |
+
+Same as 3(c): (A AND B) OR (A AND C) = A AND (B OR C)
 
 ### c
+| x == 0 | y == 0 | FIRST | SECOND |
+|--------|--------|-------|--------|
+| false  | false  | true  | true   |
+| false  | true   | true  | true   |
+| true   | false  | true  | true   |
+| true   | true   | false | false  |
+
+Same as 3(b): NOT (A AND B) = NOT A OR NOT B
 
 ### d
+| x > 10 | x > 0 | y > 0 | FIRST | SECOND |
+|--------|-------|-------|-------|--------|
+| false  | false | false | false | false  |
+| false  | false | true  | false | false  |
+| false  | true  | false | false | false  |
+| false  | true  | true  | true  | true   |
+| true   | false | false | true  | true   |
+| true   | false | true  | true  | true   |
+| true   | true  | false | true  | true   |
+| true   | true  | true  | true  | true   |
 
+Same as 3(d): (A OR B) AND (A OR C) = A OR (B AND C)
