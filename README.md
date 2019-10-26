@@ -107,6 +107,14 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 4
 
 ### a
+| file_exists("a.txt") | file_exists("b.txt") | FIRST | SECOND |
+|----------------------|----------------------|-------|--------|
+| false                | false                | true  | true   |
+| false                | true                 | true  | true   |
+| true                 | false                | true  | true   |
+| true                 | true                 | false | false  |
+
+Same as 3(b): NOT (A AND B) = NOT A OR NOT B
 
 ### b
 
