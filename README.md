@@ -59,13 +59,13 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 2
 
 ### a
-
+![image1](https://raw.githubusercontent.com/KalvinMalloch/comp110-worksheet-4/master/Capture.PNG)
 ### b
-
+![image2](https://raw.githubusercontent.com/KalvinMalloch/comp110-worksheet-4/master/Capture2.PNG)
 ### c
-
+![image3](https://raw.githubusercontent.com/KalvinMalloch/comp110-worksheet-4/master/Capture3.PNG)
 ### d
-
+![image4](https://raw.githubusercontent.com/KalvinMalloch/comp110-worksheet-4/master/Capture4.PNG)
 ## Question 3
 
 ### a
