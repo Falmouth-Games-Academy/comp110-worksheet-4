@@ -69,13 +69,41 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 3
 
 ### a
-
+| a     | b     | NOT (A OR B) | NOT A AND NOT B |
+|-------|-------|--------------|-----------------|
+| false | false | true         | true            |
+| false | true  | false        | false           |
+| true  | false | false        | false           |
+| true  | true  | false        | false           |
 ### b
-
+| a     | b     | NOT (A AND B) | NOT A OR NOT B |
+|-------|-------|---------------|----------------|
+| false | false | true          | true           |
+| false | true  | true          | true           |
+| true  | false | true          | true           |
+| true  | true  | false         | false          |
 ### c
-
+| a     | b     | c     | (A AND B) OR (A AND C) | A AND (B OR C) |
+|-------|-------|-------|------------------------|----------------|
+| false | false | false | false                  | false          |
+| false | false | true  | false                  | false          |
+| false | true  | false | false                  | false          |
+| false | true  | true  | false                  | false          |
+| true  | false | false | false                  | false          |
+| true  | false | true  | true                   | true           |
+| true  | true  | false | true                   | true           |
+| true  | true  | true  | true                   | true           |
 ### d
-
+| a     | b     | c     | (A OR B) AND (A OR C) | A OR (B AND C) |
+|-------|-------|-------|-----------------------|----------------|
+| false | false | false | false                 | false          |
+| false | false | true  | false                 | false          |
+| false | true  | false | false                 | false          |
+| false | true  | true  | true                  | true           |
+| true  | false | false | true                  | true           |
+| true  | false | true  | true                  | true           |
+| true  | true  | false | true                  | true           |
+| true  | true  | true  | true                  | true           |
 ## Question 4
 
 ### a
